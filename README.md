@@ -19,7 +19,7 @@
 每周学习至少一个技术技巧, 最好是实际工作学到的
 
 + week1: [获取中国时区时间的 LocalDateTime 方式](https://github.com/wangweiomg/arts/blob/master/week1/java_timezone.md) 
-+ week2: [](https://github.com/wangweiomg/arts/blob/master/week2/tip.md)
++ week2: [ssh 连接远程服务器](https://github.com/wangweiomg/arts/blob/master/week2/tip.md)
 
 
 ## Share
