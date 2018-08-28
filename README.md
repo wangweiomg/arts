@@ -1,17 +1,17 @@
 # ARTS - 左耳听风群的每周必做
 
 ## Algorithm
-每周至少做一个leetcode算法题 
 
 + week1: [136: SingleNumber](https://github.com/wangweiomg/arts/blob/master/week1/SingleNumber.md)
 + week2: [7. 反转整数](https://github.com/wangweiomg/arts/blob/master/week2/algorithm.md)
 + week3: [9. 回文数](https://github.com/wangweiomg/arts/blob/master/week3/algorithm.md)
 + week4: [14.最长公共前缀](https://github.com/wangweiomg/arts/blob/master/week4/algorithm.md)
 + week5: [20.有效的括号](https://github.com/wangweiomg/arts/blob/master/week5/algorithm.md)
-+ week6: [21.合并两个有序链表](https://github.com/wangweiomg/arts/blob/master/week5/algorithm.md)
++ week6: [21.合并两个有序链表](https://github.com/wangweiomg/arts/blob/master/week6/algorithm.md)
++ week7: [26. 删除排序数组中的重复项](https://github.com/wangweiomg/arts/blob/master/week7/algorithm.md)
 
 ## Review
-每周阅读至少一篇英文技术文章 
+
 
 
 + week1: [扩大AP计算机科学课程吸引女孩和少数民族学生，仍有很多要做](https://github.com/wangweiomg/arts/blob/master/week1/AP_computer.md)
@@ -20,6 +20,7 @@
 + week4: [kotlin实现下雨动画](https://github.com/wangweiomg/arts/blob/master/week4/review.md)
 + week5: [无码平台的兴起](https://github.com/wangweiomg/arts/blob/master/week5/review.md)
 + week6: [计算机程序设计艺术](https://github.com/wangweiomg/arts/blob/master/week6/review.md)
++ week7: [聚光灯效应](https://github.com/wangweiomg/arts/blob/master/week6/review.md)
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -30,6 +31,7 @@
 + week4: [es6 的let 和 var](https://github.com/wangweiomg/arts/blob/master/week4/tip.md)
 + week5: [关于 date 的解读](https://github.com/wangweiomg/arts/blob/master/week5/tip.md)
 + week6: [mysql跨数据库的一个注意点](https://github.com/wangweiomg/arts/blob/master/week6/tip.md)
++ week7: [关于从springboot 使用mysql8 的连接问题](https://github.com/wangweiomg/arts/blob/master/week7/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -40,4 +42,5 @@
 + week4: [开发内部系统的习惯](https://github.com/wangweiomg/arts/blob/master/week4/share.md)
 + week5: [读左耳听风《面试前的准备》](https://github.com/wangweiomg/arts/blob/master/week5/share.md)
 + week6: [Java8 的分组与排序](https://github.com/wangweiomg/arts/blob/master/week6/share.md) 
++ week7: [一次sql优化过程](https://github.com/wangweiomg/arts/blob/master/week7/share.md)
 
