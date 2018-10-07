@@ -12,6 +12,7 @@
 + week8: [27. 移除元素](https://github.com/wangweiomg/arts/blob/master/week8/algorithm.md)
 + week9: [28. 实现strStr()](https://github.com/wangweiomg/arts/blob/master/week9/algorithm.md)
 + week10: [35.搜索插入位置](https://github.com/wangweiomg/arts/blob/master/week10/algorithm.md)
++ week11: [66.加一](https://github.com/wangweiomg/arts/blob/master/week11/algorithm.md)
 
 
 ## Review
@@ -28,6 +29,7 @@
 + week8: [为什么Java小伙对Node.js和JavaScript 如此兴奋？(上)](https://github.com/wangweiomg/arts/blob/master/week8/review.md)
 + week9: [为什么Java小伙对Node.js和JavaScript 如此兴奋？(下)](https://github.com/wangweiomg/arts/blob/master/week9/review.md)
 + week10: [怎么网上赚钱？ 2018 的38个在线赚钱方法](https://github.com/wangweiomg/arts/blob/master/week10/review.md)
++ week11: [使用BeautifulSoup抓取网站](https://github.com/wangweiomg/arts/blob/master/week11/review.md)
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -42,6 +44,7 @@
 + week8: [关于货币数字千分位表示](https://github.com/wangweiomg/arts/blob/master/week8/tip.md)
 + week9: [关于MyBatis 报错的一个反思](https://github.com/wangweiomg/arts/blob/master/week9/tip.md)
 + week10: [关于 js 接收前端有序map 变无序的问题](https://github.com/wangweiomg/arts/blob/master/week10/tip.md)
++ week11: [moment.js的使用](https://github.com/wangweiomg/arts/blob/master/week11/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -56,4 +59,6 @@
 + week8: [super-csv 的简单使用](https://github.com/wangweiomg/arts/blob/master/week8/share.md)
 + week9: [ES6箭头函数this](https://github.com/wangweiomg/arts/blob/master/week9/share.md)
 + week10: [js 的 reduce()函数](https://github.com/wangweiomg/arts/blob/master/week10/share.md)
++ week11: [ThreadPool的构造函数参数](https://github.com/wangweiomg/arts/blob/master/week11/share.md)
+
 
