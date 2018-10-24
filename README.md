@@ -14,6 +14,7 @@
 + week10: [35.搜索插入位置](https://github.com/wangweiomg/arts/blob/master/week10/algorithm.md)
 + week11: [66.加一](https://github.com/wangweiomg/arts/blob/master/week11/algorithm.md)
 + week12: [67. 二进制求和](https://github.com/wangweiomg/arts/blob/master/week12/algorithm.md)
++ week13: [69. x的平方根](https://github.com/wangweiomg/arts/blob/master/week13/algorithm.md)
 
 
 ## Review
@@ -32,6 +33,7 @@
 + week10: [怎么网上赚钱？ 2018 的38个在线赚钱方法](https://github.com/wangweiomg/arts/blob/master/week10/review.md)
 + week11: [使用BeautifulSoup抓取网站](https://github.com/wangweiomg/arts/blob/master/week11/review.md)
 + week12: [当你感到困难时候是学到最多的时候](https://github.com/wangweiomg/arts/blob/master/week12/review.md)
++ week13: [让困难的事变得看起来容易的艺术](https://github.com/wangweiomg/arts/blob/master/week13/review.md)
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -48,6 +50,7 @@
 + week10: [关于 js 接收前端有序map 变无序的问题](https://github.com/wangweiomg/arts/blob/master/week10/tip.md)
 + week11: [moment.js的使用](https://github.com/wangweiomg/arts/blob/master/week11/tip.md)
 + week12: [关于一次tomcat在linux运行war包的错误分析](https://github.com/wangweiomg/arts/blob/master/week12/tip.md)
++ week13: [mybatis里if test="param == '1'" 的问题](https://github.com/wangweiomg/arts/blob/master/week13/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -64,5 +67,6 @@
 + week10: [js 的 reduce()函数](https://github.com/wangweiomg/arts/blob/master/week10/share.md)
 + week11: [ThreadPool的构造函数参数](https://github.com/wangweiomg/arts/blob/master/week11/share.md)
 + week12: [简单思考下传统销售企业的互联网优化](https://github.com/wangweiomg/arts/blob/master/week12/share.md)
++ week13: [我对前端发展历程的思考](https://github.com/wangweiomg/arts/blob/master/week13/share.md)
 
 
