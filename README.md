@@ -16,6 +16,7 @@
 + week12: [67. 二进制求和](https://github.com/wangweiomg/arts/blob/master/week12/algorithm.md)
 + week13: [69. x的平方根](https://github.com/wangweiomg/arts/blob/master/week13/algorithm.md)
 + week14: [70. 爬楼梯](https://github.com/wangweiomg/arts/blob/master/week14/algorithm.md)
++ week15: [746. 最小花费爬楼梯](https://github.com/wangweiomg/arts/blob/master/week15/algorithm.md)
 
 
 ## Review
@@ -36,6 +37,8 @@
 + week12: [当你感到困难时候是学到最多的时候](https://github.com/wangweiomg/arts/blob/master/week12/review.md)
 + week13: [让困难的事变得看起来容易的艺术](https://github.com/wangweiomg/arts/blob/master/week13/review.md)
 + week14: [你应该避免使用的3个JavaScript性能特性](https://github.com/wangweiomg/arts/blob/master/week14/review.md)
++ week15: [mysql性能优化](https://github.com/wangweiomg/arts/blob/master/week15/review.md)
+
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -54,6 +57,7 @@
 + week12: [关于一次tomcat在linux运行war包的错误分析](https://github.com/wangweiomg/arts/blob/master/week12/tip.md)
 + week13: [mybatis里if test="param == '1'" 的问题](https://github.com/wangweiomg/arts/blob/master/week13/tip.md)
 + week14: [Java和JavaScript 的split函数](https://github.com/wangweiomg/arts/blob/master/week14/tip.md)
++ week15: [mysql 大分页问题](https://github.com/wangweiomg/arts/blob/master/week15/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -72,4 +76,5 @@
 + week12: [简单思考下传统销售企业的互联网优化](https://github.com/wangweiomg/arts/blob/master/week12/share.md)
 + week13: [我对前端发展历程的思考](https://github.com/wangweiomg/arts/blob/master/week13/share.md)
 + week14: [我对后端发展历程的思考](https://github.com/wangweiomg/arts/blob/master/week14/share.md)
++ week15: [关于日志那些事](https://github.com/wangweiomg/arts/blob/master/week15/share.md)
 
