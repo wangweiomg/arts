@@ -17,6 +17,7 @@
 + week13: [69. x的平方根](https://github.com/wangweiomg/arts/blob/master/week13/algorithm.md)
 + week14: [70. 爬楼梯](https://github.com/wangweiomg/arts/blob/master/week14/algorithm.md)
 + week15: [746. 最小花费爬楼梯](https://github.com/wangweiomg/arts/blob/master/week15/algorithm.md)
++ week16: [83. 删除排序链表中的重复元素](https://github.com/wangweiomg/arts/blob/master/week16/algorithm.md)
 
 
 ## Review
@@ -38,6 +39,7 @@
 + week13: [让困难的事变得看起来容易的艺术](https://github.com/wangweiomg/arts/blob/master/week13/review.md)
 + week14: [你应该避免使用的3个JavaScript性能特性](https://github.com/wangweiomg/arts/blob/master/week14/review.md)
 + week15: [mysql性能优化](https://github.com/wangweiomg/arts/blob/master/week15/review.md)
++ week16: [存储过程与游标](https://github.com/wangweiomg/arts/blob/master/week16/review.md)
 
 
 ## Tip
@@ -58,6 +60,7 @@
 + week13: [mybatis里if test="param == '1'" 的问题](https://github.com/wangweiomg/arts/blob/master/week13/tip.md)
 + week14: [Java和JavaScript 的split函数](https://github.com/wangweiomg/arts/blob/master/week14/tip.md)
 + week15: [mysql 大分页问题](https://github.com/wangweiomg/arts/blob/master/week15/tip.md)
++ week16: [SQL INNER JOIN 与LEFT JOIN 引起的一次问题](https://github.com/wangweiomg/arts/blob/master/week16/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -77,4 +80,5 @@
 + week13: [我对前端发展历程的思考](https://github.com/wangweiomg/arts/blob/master/week13/share.md)
 + week14: [我对后端发展历程的思考](https://github.com/wangweiomg/arts/blob/master/week14/share.md)
 + week15: [关于日志那些事](https://github.com/wangweiomg/arts/blob/master/week15/share.md)
++ week16: [关于 SQL JOIN 那些事](https://github.com/wangweiomg/arts/blob/master/week16/share.md)
 
