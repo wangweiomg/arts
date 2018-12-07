@@ -19,6 +19,7 @@
 + week15: [746. 最小花费爬楼梯](https://github.com/wangweiomg/arts/blob/master/week15/algorithm.md)
 + week16: [83. 删除排序链表中的重复元素](https://github.com/wangweiomg/arts/blob/master/week16/algorithm.md)
 + week17: [82. 删除排序链表中的重复元素 II](https://github.com/wangweiomg/arts/blob/master/week17/algorithm.md)
++ week18: [88. 合并两个有序数组](https://github.com/wangweiomg/arts/blob/master/week18/algorithm.md)
 
 
 
@@ -43,6 +44,7 @@
 + week15: [mysql性能优化](https://github.com/wangweiomg/arts/blob/master/week15/review.md)
 + week16: [存储过程与游标](https://github.com/wangweiomg/arts/blob/master/week16/review.md)
 + week17: [一个好的开发者说不](https://github.com/wangweiomg/arts/blob/master/week17/review.md)
++ week18: [为什么游戏玩乐是21世纪通往成功的关键](https://github.com/wangweiomg/arts/blob/master/week18/review.md)
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -64,6 +66,7 @@
 + week15: [mysql 大分页问题](https://github.com/wangweiomg/arts/blob/master/week15/tip.md)
 + week16: [SQL INNER JOIN 与LEFT JOIN 引起的一次问题](https://github.com/wangweiomg/arts/blob/master/week16/tip.md)
 + week17: [谈谈MySQL慢查询](https://github.com/wangweiomg/arts/blob/master/week17/tip.md)
++ week18: [谈谈我主动推动的生产、测试环境分离](https://github.com/wangweiomg/arts/blob/master/week18/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -85,4 +88,4 @@
 + week15: [关于日志那些事](https://github.com/wangweiomg/arts/blob/master/week15/share.md)
 + week16: [关于 SQL JOIN 那些事](https://github.com/wangweiomg/arts/blob/master/week16/share.md)
 + week17: [后台还有必要存在接口吗](https://github.com/wangweiomg/arts/blob/master/week17/share.md)
-
++ week18: [对Review的思考和改进](https://github.com/wangweiomg/arts/blob/master/week18/share.md)
