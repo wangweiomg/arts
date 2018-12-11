@@ -20,6 +20,7 @@
 + week16: [83. 删除排序链表中的重复元素](https://github.com/wangweiomg/arts/blob/master/week16/algorithm.md)
 + week17: [82. 删除排序链表中的重复元素 II](https://github.com/wangweiomg/arts/blob/master/week17/algorithm.md)
 + week18: [88. 合并两个有序数组](https://github.com/wangweiomg/arts/blob/master/week18/algorithm.md)
++ week19: [4.寻找两个有序数组的中位数](https://github.com/wangweiomg/arts/blob/master/week19/algorithm.md)
 
 
 
@@ -45,6 +46,7 @@
 + week16: [存储过程与游标](https://github.com/wangweiomg/arts/blob/master/week16/review.md)
 + week17: [一个好的开发者说不](https://github.com/wangweiomg/arts/blob/master/week17/review.md)
 + week18: [为什么游戏玩乐是21世纪通往成功的关键](https://github.com/wangweiomg/arts/blob/master/week18/review.md)
++ week19: [MySQL8.0 参考手册](https://github.com/wangweiomg/arts/blob/master/week19/review.md)
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -67,6 +69,7 @@
 + week16: [SQL INNER JOIN 与LEFT JOIN 引起的一次问题](https://github.com/wangweiomg/arts/blob/master/week16/tip.md)
 + week17: [谈谈MySQL慢查询](https://github.com/wangweiomg/arts/blob/master/week17/tip.md)
 + week18: [谈谈我主动推动的生产、测试环境分离](https://github.com/wangweiomg/arts/blob/master/week18/tip.md)
++ week19: [ECharts 的使用简介](https://github.com/wangweiomg/arts/blob/master/week19/tip.md)
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -89,3 +92,5 @@
 + week16: [关于 SQL JOIN 那些事](https://github.com/wangweiomg/arts/blob/master/week16/share.md)
 + week17: [后台还有必要存在接口吗](https://github.com/wangweiomg/arts/blob/master/week17/share.md)
 + week18: [对Review的思考和改进](https://github.com/wangweiomg/arts/blob/master/week18/share.md)
++ week19: [重读《技术人员的发展之路》](https://github.com/wangweiomg/arts/blob/master/week19/share.md)
+
