@@ -68,4 +68,63 @@ public ListNode detectCycle2(ListNode head) {
     }
 ```
 
-我们需要考虑不增加额外空间来实现这个功能。
+我们需要考虑不增加额外空间来实现这个功能。也参照141环形链表的双指针方案。
+思考这样一个链表：
+
+![](https://img-blog.csdn.net/20151009091556303)
+
+
+我们假设这个链表 起点、环入口、第一次相遇点 分别是 X, Y, Z, 之间的距离分别是a,b,c
+
+那么，在 Z 点第一次相遇，此时 
+
+* 慢指针走的距离为 a+b, 
+* 快指针走的距离为  a+b+c+b ,
+
+由于快指针速度是慢指针的2倍，也就是说快指针走过的距离为慢指针的距离的2倍，于是就存在以下等式：
+
+2* (a+b) = a+b+c+b 
+
+也就是
+2a + ab = a+c + 2b,
+
+也就是 
+**a == c**
+ 
+也就是，两个指针第一次相遇点到环入口的距离 和 起点到入口的距离相等，那么我们就可以利用这个特点来写代码。
+
+### 代码
+
+```
+public ListNode detectCycle(ListNode head) {
+
+        if (head == null || head.next == null) {
+            return null;
+        }
+
+        ListNode fast = head;
+        ListNode slow = head;
+
+        do {
+            fast = fast.next.next;
+            slow = slow.next;
+        } while (fast != null && fast.next  != null && fast != slow);
+
+        if (fast != slow) {
+            return null;
+        }
+
+        ListNode p1 = head;
+        ListNode p2 = slow;
+
+        while (p1 != p2) {
+            p1 = p1.next;
+            p2 = p2.next;
+        }
+        return p1;
+
+
+
+    }
+
+```
