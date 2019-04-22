@@ -21,6 +21,15 @@
 + week17: [82. 删除排序链表中的重复元素 II](https://github.com/wangweiomg/arts/blob/master/week17/algorithm.md)
 + week18: [88. 合并两个有序数组](https://github.com/wangweiomg/arts/blob/master/week18/algorithm.md)
 + week19: [4.寻找两个有序数组的中位数](https://github.com/wangweiomg/arts/blob/master/week19/algorithm.md)
++ week20: [121. 买卖股票的最佳时机](https://github.com/wangweiomg/arts/blob/master/week20/algorithm.md)
++ week21: [141. 环形链表](https://github.com/wangweiomg/arts/blob/master/week21/algorithm.md)
++ week22: [142. 环形链表 II](https://github.com/wangweiomg/arts/blob/master/week22/algorithm.md)
++ week23: [143. 重排链表](https://github.com/wangweiomg/arts/blob/master/week23/algorithm.md)
++ week24: [206. 反转链表](https://github.com/wangweiomg/arts/blob/master/week24/algorithm.md)
++ week25: [205. 同构字符串](https://github.com/wangweiomg/arts/blob/master/week25/algorithm.md)
++ week26: [155. 最小栈](https://github.com/wangweiomg/arts/blob/master/week26/algorithm.md)
++ week27: [122. 买卖股票的最佳时机 II](https://github.com/wangweiomg/arts/blob/master/week27/algorithm.md)
++ week28: [160. 相交链表](https://github.com/wangweiomg/arts/blob/master/week28/algorithm.md)
 
 
 
@@ -47,6 +56,22 @@
 + week17: [一个好的开发者说不](https://github.com/wangweiomg/arts/blob/master/week17/review.md)
 + week18: [为什么游戏玩乐是21世纪通往成功的关键](https://github.com/wangweiomg/arts/blob/master/week18/review.md)
 + week19: [MySQL8.0 参考手册](https://github.com/wangweiomg/arts/blob/master/week19/review.md)
++ week20: [chapter 4 Processes](https://github.com/wangweiomg/arts/blob/master/week20/review.md)
++ week21: [Linux进程那些事（2）](https://github.com/wangweiomg/arts/blob/master/week21/review.md)
++ week22: [1.3.1 What is MySQ](https://github.com/wangweiomg/arts/blob/master/week22/review.md)
++ week23: [ 1.3.2 MySQL重要特性](https://github.com/wangweiomg/arts/blob/master/week23/review.md)
++ week24: [1.4 What Is New in MySQL 8.0(上)](https://github.com/wangweiomg/arts/blob/master/week24/review.md)
++ week25: [1.4 What Is New in MySQL 8.0(下)](https://github.com/wangweiomg/arts/blob/master/week25/review.md)
++ week26: [Chapter 4. The class File Format](https://github.com/wangweiomg/arts/blob/master/week26/review.md)
++ week27: [Java Class Format （二）](https://github.com/wangweiomg/arts/blob/master/week27/review.md)
++ week28: [Java class File Format（3）](https://github.com/wangweiomg/arts/blob/master/week28/review.md)
+
+
+
+
+
+
+
 
 ## Tip
 每周学习至少一个技术技巧, 最好是实际工作学到的
@@ -70,6 +95,16 @@
 + week17: [谈谈MySQL慢查询](https://github.com/wangweiomg/arts/blob/master/week17/tip.md)
 + week18: [谈谈我主动推动的生产、测试环境分离](https://github.com/wangweiomg/arts/blob/master/week18/tip.md)
 + week19: [ECharts 的使用简介](https://github.com/wangweiomg/arts/blob/master/week19/tip.md)
++ week20: [Maven 构建的意外killed](https://github.com/wangweiomg/arts/blob/master/week20/tip.md)
++ week21: [关于字符串类型和数值类型排序的bug](https://github.com/wangweiomg/arts/blob/master/week21/tip.md)
++ week22: [MySQL备份数据过滤与自动化](https://github.com/wangweiomg/arts/blob/master/week22/tip.md)
++ week23: [一次MySQL时区问题引发的血案](https://github.com/wangweiomg/arts/blob/master/week23/tip.md)
++ week24: [Redis 的使用场景思考](https://github.com/wangweiomg/arts/blob/master/week24/tip.md)
++ week25: [MySQL报错 Packet for query is too large](https://github.com/wangweiomg/arts/blob/master/week25/tip.md)
++ week26: [多人查询系统加锁](https://github.com/wangweiomg/arts/blob/master/week26/tip.md)
++ week27: [关于创建线程池](https://github.com/wangweiomg/arts/blob/master/week27/tip.md)
++ week28: [线程池的状态](https://github.com/wangweiomg/arts/blob/master/week28/tip.md)
+
 
 ## Share
 每周分享一篇有观点和思考的技术文章
@@ -93,4 +128,16 @@
 + week17: [后台还有必要存在接口吗](https://github.com/wangweiomg/arts/blob/master/week17/share.md)
 + week18: [对Review的思考和改进](https://github.com/wangweiomg/arts/blob/master/week18/share.md)
 + week19: [重读《技术人员的发展之路》](https://github.com/wangweiomg/arts/blob/master/week19/share.md)
++ week20: [Linux 进程浅析](https://github.com/wangweiomg/arts/blob/master/week20/share.md)
++ week21: [一个.java 文本文件是如何运行起来的](https://github.com/wangweiomg/arts/blob/master/week21/share.md)
++ week22: [学技术要结合使用场景](https://github.com/wangweiomg/arts/blob/master/week22/share.md)
++ week23: [创意实践思考](https://github.com/wangweiomg/arts/blob/master/week23/share.md)
++ week24: [对软件工程的思考](https://github.com/wangweiomg/arts/blob/master/week24/share.md)
++ week25: [MySQL的联合索引](https://github.com/wangweiomg/arts/blob/master/week25/share.md)
++ week26: [提高系统性能方式的总结](https://github.com/wangweiomg/arts/blob/master/week26/share.md)
++ week27: [HashMap的key是否可以是nul](https://github.com/wangweiomg/arts/blob/master/week27/share.md)
++ week28: [快速迭代与流程开发的一点思考](https://github.com/wangweiomg/arts/blob/master/week28/share.md)
+
+
+
 
