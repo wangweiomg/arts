@@ -31,6 +31,7 @@
 + week27: [122. 买卖股票的最佳时机 II](https://github.com/wangweiomg/arts/blob/master/week27/algorithm.md)
 + week28: [160. 相交链表](https://github.com/wangweiomg/arts/blob/master/week28/algorithm.md)
 + week29: [19. 删除链表的倒数第N个节点](https://github.com/wangweiomg/arts/blob/master/week29/algorithm.md)
++ week30: [23. 合并K个排序链表](https://github.com/wangweiomg/arts/blob/master/week30/algorithm.md)
 
 
 
@@ -67,6 +68,7 @@
 + week27: [Java Class Format （二）](https://github.com/wangweiomg/arts/blob/master/week27/review.md)
 + week28: [Java class File Format（3）](https://github.com/wangweiomg/arts/blob/master/week28/review.md)
 + week29: [1.5 MySQL8.0服务状态变量和可选性的增加、过时或删除](https://github.com/wangweiomg/arts/blob/master/week29/review.md)
++ week30: [作为领导，你最宝贵的资源是时间](https://github.com/wangweiomg/arts/blob/master/week30/review.md)
 
 
 
@@ -107,6 +109,7 @@
 + week27: [关于创建线程池](https://github.com/wangweiomg/arts/blob/master/week27/tip.md)
 + week28: [线程池的状态](https://github.com/wangweiomg/arts/blob/master/week28/tip.md)
 + week29: [线程池的execute方法](https://github.com/wangweiomg/arts/blob/master/week29/tip.md)
++ Week30: [线程池的addWorker方法](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
 
 
 ## Share
@@ -141,6 +144,7 @@
 + week27: [HashMap的key是否可以是nul](https://github.com/wangweiomg/arts/blob/master/week27/share.md)
 + week28: [快速迭代与流程开发的一点思考](https://github.com/wangweiomg/arts/blob/master/week28/share.md)
 + week29: [再谈代码规范](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
++ week30: [题外谈：说说金融与产业](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
 
 
 
