@@ -168,6 +168,7 @@ public void execute(Runnable command) {
                 } finally {
                     mainLock.unlock();
                 }
+              	// 添加成功，就启动线程
                 if (workerAdded) {
                     t.start();
                     workerStarted = true;
