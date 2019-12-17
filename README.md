@@ -36,6 +36,7 @@
 + week32: [25. k个一组翻转链表](https://github.com/wangweiomg/arts/blob/master/week32/algorithm.md)
 + week33: [61. 旋转链表](https://github.com/wangweiomg/arts/blob/master/week33/algorithm.md)
 + week34: [86. 分隔列表](https://github.com/wangweiomg/arts/blob/master/week34/algorithm.md)
++ Week35: [92.翻转链表2](https://github.com/wangweiomg/arts/blob/master/week35/algorithm.md)
 
 
 
@@ -76,10 +77,9 @@
 + week31: [在绩效评估中最好的问题](https://github.com/wangweiomg/arts/blob/master/week31/review.md)
 
 - week32: [MySQL数据类型总览](https://github.com/wangweiomg/arts/blob/master/week32/review.md)
-
 - week33: [MySQL数据类型(2)](https://github.com/wangweiomg/arts/blob/master/week33/review.md)
-
 - week34: [开发者 — 这是你退出朝九晚五工作的最佳选择](https://github.com/wangweiomg/arts/blob/master/week34/review.md)
+- week35: [怎么去快速学习一门编程语言](https://github.com/wangweiomg/arts/blob/master/week35/review.md)
 
 
 
@@ -127,6 +127,7 @@
 + Week32: [linux前后台切换](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
 + Week33: [MySQL 的GTID](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
 + Week34: [AJAX跨域](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
++ Week35: [MySQL的ON DUPLICATE KEY UPDATE](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
 
 
 ## Share
@@ -161,11 +162,12 @@
 + week27: [HashMap的key是否可以是nul](https://github.com/wangweiomg/arts/blob/master/week27/share.md)
 + week28: [快速迭代与流程开发的一点思考](https://github.com/wangweiomg/arts/blob/master/week28/share.md)
 + week29: [再谈代码规范](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
-+ week30: [题外谈：说说金融与产业](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
-+ week31: [JVM的守护线程和用户线程](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
-+ week32: [基础的重要性,现代计算机的存储结构](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
-+ week33: [关于APP后端的登陆状态](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
-+ week34: [Spring容器启动过程](https://github.com/wangweiomg/arts/blob/master/week29/share.md)
++ week30: [题外谈：说说金融与产业](https://github.com/wangweiomg/arts/blob/master/week30/share.md)
++ week31: [JVM的守护线程和用户线程](https://github.com/wangweiomg/arts/blob/master/week31/share.md)
++ week32: [基础的重要性,现代计算机的存储结构](https://github.com/wangweiomg/arts/blob/master/week32/share.md)
++ week33: [关于APP后端的登陆状态](https://github.com/wangweiomg/arts/blob/master/week33/share.md)
++ week34: [Spring容器启动过程](https://github.com/wangweiomg/arts/blob/master/week34/share.md)
++ week35: [考虑用静态工厂方法](https://github.com/wangweiomg/arts/blob/master/week35/share.md)
 
 
 
