@@ -37,6 +37,7 @@
 + week33: [61. 旋转链表](https://github.com/wangweiomg/arts/blob/master/week33/algorithm.md)
 + week34: [86. 分隔列表](https://github.com/wangweiomg/arts/blob/master/week34/algorithm.md)
 + Week35: [92.翻转链表2](https://github.com/wangweiomg/arts/blob/master/week35/algorithm.md)
++ Week36: [5.最长回文子串](https://github.com/wangweiomg/arts/blob/master/week36/algorithm.md)
 
 
 
@@ -80,6 +81,7 @@
 - week33: [MySQL数据类型(2)](https://github.com/wangweiomg/arts/blob/master/week33/review.md)
 - week34: [开发者 — 这是你退出朝九晚五工作的最佳选择](https://github.com/wangweiomg/arts/blob/master/week34/review.md)
 - week35: [怎么去快速学习一门编程语言](https://github.com/wangweiomg/arts/blob/master/week35/review.md)
+- week36: [分布式ID生成策略](https://github.com/wangweiomg/arts/blob/master/week36/review.md)
 
 
 
@@ -127,7 +129,8 @@
 + Week32: [linux前后台切换](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
 + Week33: [MySQL 的GTID](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
 + Week34: [AJAX跨域](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
-+ Week35: [MySQL的ON DUPLICATE KEY UPDATE](https://github.com/wangweiomg/arts/blob/master/week30/tip.md)
++ Week35: [MySQL的ON DUPLICATE KEY UPDATE](https://github.com/wangweiomg/arts/blob/master/week35/tip.md)
++ Week36:[MySQL的CAST转换函数](https://github.com/wangweiomg/arts/blob/master/week36/tip.md)
 
 
 ## Share
@@ -168,6 +171,7 @@
 + week33: [关于APP后端的登陆状态](https://github.com/wangweiomg/arts/blob/master/week33/share.md)
 + week34: [Spring容器启动过程](https://github.com/wangweiomg/arts/blob/master/week34/share.md)
 + week35: [考虑用静态工厂方法](https://github.com/wangweiomg/arts/blob/master/week35/share.md)
++ Week36:[使用私有构造函数强化singleton属性](https://github.com/wangweiomg/arts/blob/master/week36/share.md)
 
 
 
