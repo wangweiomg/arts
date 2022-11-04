@@ -18,7 +18,76 @@
 
 #### 方法1、穷举
 
-既然要找出无重复字符最长子串，那么就把所有子串找出来，排除重复的，找到无重复的最长子串
+既然要找出无重复字符最长子串，那么就把所有子串找出来，排除重复的，找到无重复的最长子串。
+
+如何获得子串？String自带的```substr(beginIndex, endIndex)```方法。
+
+如何查找所有子串？从第一个字符开始，往后取1个、2个、3个....组成子串， 然后再第二个字符...
+
+具体代码：
+
+```java
+public int lengthOfLongestSubstring1(String s) {
+
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        List<char[]> list = new ArrayList<>();
+        // 找出所有子串
+        for (int i = 0; i < s.length(); i++) {
+
+            char head = s.charAt(i);
+            list.add(new char[]{head});
+
+            // 找出所有子串
+            for (int j = i+1; j < s.length(); j++) {
+                list.add(s.substring(i, j + 1).toCharArray());
+            }
+
+        }
+
+        // 遍历所有子串，找出无重复的长度
+        int max = 0;
+        for (int i = 0; i < list.size(); i++) {
+            char[] array = list.get(i);
+
+            // 如何检查重复， 类似取所有子串，这次是取所有字符
+            boolean duplicate = false;
+            label: for (int j = 0; j < array.length; j++) {
+
+                char head = array[j];
+
+                for (int k = j+1; k < array.length; k++) {
+
+                    if (head == array[k]) {
+                        // 重复，跳出检查
+                        duplicate = true;
+                        break label;
+
+                    }
+
+                }
+
+            }
+
+            if (!duplicate) {
+                // 存在重复，就不管max
+                // 不存在重复，就重置max
+                max = Math.max(max, array.length);
+            }
+
+
+        }
+
+
+        return max;
+    }
+```
+
+
+
+
 
 #### 方法2、解决
 
