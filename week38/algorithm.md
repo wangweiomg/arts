@@ -160,9 +160,182 @@ public int lengthOfLongestSubstring(String s) {
 
 #### 引入Set代替重复判断
 
+注意点是，第二层循环里， 有多少个元素 = (j - i + 1)
+
+代码如下：
+
+```java
+public int lengthOfLongestSubstring1(String s) {
+
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        // max 初始化为1，因为为空已经判断过了
+        int max = 1;
+
+
+        Set<Character> set = new HashSet<>();
+
+        // 找出所有子串
+        for (int i = 0; i < s.length(); i++) {
+
+            // 找出所有子串,并直接判断重复
+            set.add(s.charAt(i));
+
+            for (int j = i+1; j < s.length(); j++) {
+
+                set.add(s.charAt(j));
+
+                // 判断是否重复
+                // 如果不重复，那么应该有 (j-i+1) 个元素
+                int num = j - i + 1;
+                if (set.size() < num) {
+
+                    // 重复，清空set, 跳出循环
+                    set.clear();
+
+                    break;
+                } else {
+                  	// 重置max
+                    max = Math.max(max, num);
+                }
+
+            }
+
+        }
+
+        return max;
+
+    }
+```
+
+再次提交试试，通过，但是还是不够好, 有很大优化空间。
+
+![image-20221104202851953](https://tva1.sinaimg.cn/large/008vxvgGly1h7tdb7t05tj31jc0bamy6.jpg)
 
 
 
+#### 去掉双重循环
+
+继续优化代码。重新思考这个问题， 题目要求：
+
+>  给定一个字符串 `s` ，请你找出其中不含有重复字符的 **最长子串** 的长度。
+
+假设是如图所示的字符串，要找到无重复最长子串。我们很容易看出来，最长子串是 ```abc``` ,  长度是3。在脑海中过一下执行过程：
+
+1. 拿出a ，结果```a``` ， 无重复
+2. 拿出b ,   结果```ab``` ，无重复
+3. 拿出c, 结果 ```abc``` ，无重复
+4. 拿出a, 结果 ```abca```， 重复，去掉最后的```a```,  当前最长是 ```abc```， 
+5. **(关键步骤)**  这时候，我们是返回去，从 下标为1的```b``` 开始下一轮判断，还是往后从下标为3的a开始判断？很明显是后者。
+
+![image-20221104204715144](https://tva1.sinaimg.cn/large/008vxvgGly1h7tduc7ghkj318m0k4q3u.jpg)
+
+想清楚了以上步骤， 回顾我们的代码： 很明显， 我们在第5步骤，应该从下标为3 的a开始，但是却从了 下标为1开始判断，这块是重复无用的，所以需要改造这一块。思路就是， 当右边发现有重复时候， 把左边的指针指向右边重复位置。
+
+```java
+for (int i = 0; i < s.length(); i++) {
+
+            // 找出所有子串,并直接判断重复
+            set.add(s.charAt(i));
+
+            for (int j = i+1; j < s.length(); j++) {
+
+                set.add(s.charAt(j));
+
+                // 判断是否重复
+                // 如果不重复，那么应该有 (j-i+1) 个元素
+                int num = j - i + 1;
+                if (set.size() < num) {
+
+                    // 重复，清空set, 跳出循环
+                    set.clear();
+
+                    break;
+                } else {
+                    max = Math.max(max, num);
+                }
+
+            }
+
+        }
+
+```
+
+
+
+根据以上思路，改造后的代码主要逻辑为：
+
+```java
+				int left = 0;
+        // 找出所有子串
+        for (int i = 0; i < s.length(); i++) {
+
+            char ch = s.charAt(i);
+            set.add(ch);
+
+            // 无重复的话，长度为 i - left + 1
+            int num = i - left + 1;
+            if (set.size() < num) {
+                // 有重复的, 记录当前位置
+                left = i;
+                set.clear();
+                set.add(ch);
+
+            } else {
+                // 无重复，更新max
+                max = Math.max(max, num);
+            }
+
+
+
+        }
+
+        return max;
+```
+
+
+
+自测通过，提交测试， 发现用例没有通过：
+
+![image-20221104211850962](https://tva1.sinaimg.cn/large/008vxvgGly1h7ter8dyujj30ku0iy0t7.jpg)
+
+是的，在该案例中， ```dvdf```， 我们看出最长子串是```vdf```， 根据上面代码， 执行的结果是```df```， 也就是说，遇到重复后，并不能直接从重复除开始往后找，重复前面的字符开头也可能存在最长子串。回到刚才改造之前的思路，看看问题出在哪？
+
+> 想清楚了以上步骤， 回顾我们的代码： 很明显， 我们在第5步骤，应该从下标为3 的a开始，但是却从了 下标为1开始判断，这块是重复无用的，所以需要改造这一块。思路就是， 当右边发现有重复时候， 把左边的指针指向右边重复位置。
+
+只在上面那个例子```abcabcbb```中， 这么想确实没问题，但是并没有兼容 ```dvdf```这样的情况， 重复字符前面开头的子串还可能存在最长的，再结合我们第一版的暴力算法--- 找到所有子串，  发现，**其实这问题的解题关键，就是要找到每一个字符领头下的，无重复最长子串！**
+
+也就是说，要实现的是这样的过程：
+
+**对于abcabcbb**
+
+1. a领头： 最长是 abc
+2. b领头：最长是bca
+3. c领头：最长是cab
+4. a领头:  最长是 abc
+5. b领头：最长是bc
+6. c领头: 最长是cb
+7. b领头: 最长是b
+8. b领头: 最长是b
+
+**对于 dvdf**
+
+1. d领头：最长是dv
+2. v领头：最长是vdf
+3. d领头：最长是df
+4. f领头：最长是f
+
+这时候就引入了一个计算机概念，叫**滑动窗口算法(Sliding Window Algorithm)**， 主要用于数组和字符串处理，逻辑如图所示：
+
+![image-20221104214542954](https://tva1.sinaimg.cn/large/008vxvgGly1h7tfj6b64zj31lc0t4gqc.jpg)
+
+相当于创建一个滑动的窗口，或者队列管道， 碰到重复的，就把前面重复的去掉。 注意上图第 step4 ,碰到 b重复，并不是只去一个， 而是直接去掉了ab, 因此这里我们要知道重复字符所在的位置，方便窗口的左边界指针移动过来，指向之前重复的后一位。既要记录位置，也要判断重复，Java里的合适的数据结构，就是map了，用map的key的无重复特性处理重复， value保存字符的位置，挺合适。
+
+代码如下：
+
+ 
 
 
 
