@@ -333,61 +333,49 @@ for (int i = 0; i < s.length(); i++) {
 
 相当于创建一个滑动的窗口，或者队列管道， 碰到重复的，就把前面重复的去掉。 注意上图第 step4 ,碰到 b重复，并不是只去一个， 而是直接去掉了ab, 因此这里我们要知道重复字符所在的位置，方便窗口的左边界指针移动过来，指向之前重复的后一位。既要记录位置，也要判断重复，Java里的合适的数据结构，就是map了，用map的key的无重复特性处理重复， value保存字符的位置，挺合适。
 
-代码如下：
-
- 
+这时候的主要逻辑，就是移动左指针了。如果右边指针(for 循环的 i) 碰到了重复的，就把左边指针往右挪一位，左边指针的位置在map中有保存，取出即可。 **注意，由于碰到所有的重复字符都会操作左指针的位置， 防止出现左指针往左偏移，每次就要取最大位置的左指针**。
 
 
 
-#### 方法2、解决
+#### 最终代码
 
 ```java
 public int lengthOfLongestSubstring(String s) {
 
         if (s == null || s.length() == 0) {
-
             return 0;
         }
 
-        int max = 1;
+        Map<Character, Integer> map = new HashMap<>();
+        int max = 0;
+        // 左边界指针
+        int left = 0;
 
-
-        HashSet<Character> set = new HashSet<>();
-
-        for (int i = 0, len = s.length(); i < len; i++) {
+        for (int i = 0; i < s.length(); i++) {
 
             char ch = s.charAt(i);
-            set.clear();
-            set.add(ch);
-
-            // 找出vision 开始无重复最长子串
-            for (int j = i+1 ; j < s.length(); j++) {
-
-
-                char tmp = s.charAt(j);
-                set.add(tmp);
-
-                int length = j - i + 1;
-
-                if (set.size() < length) {
-                    // 有重复的，
-                    max = Math.max(max, length-1);
-                    break;
-                } else {
-                    max = Math.max(max, length);
-                }
-
+            if (map.containsKey(ch)) {
+                // 如果重复，就移动左指针
+                left = Math.max(left, map.get(ch) + 1);
             }
 
+            max = Math.max(max, i - left + 1);
+
+            // 保存字符
+            map.put(ch, i);
 
         }
 
         return max;
-
     }
 ```
 
 
 
+看执行性能和内存占用：
+
+![image-20221105154345557](http://rkv59lj1r.hb-bkt.clouddn.com/img/20221105154346.png)
 
 
+
+还算可以。
