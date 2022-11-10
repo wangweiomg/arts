@@ -247,6 +247,69 @@ Class B, 却只能被extension 加载的类可见。
 >
 > Now that we understand why custom class loaders are relevant, let's implement a subclass of *ClassLoader* to extend and summarise the functionality of how the JVM loads classes.
 
+自定义类加载器用例
+
+自定义类加载器对于不仅在运行时加载类是很有帮助的。一些用例可能包括：
+
+1. 帮助改已经存在的字节码，例如编织代理
+2. 动态创建类来适应用户所需，例如在JDBC，切换不同的驱动就是通过动态加载类来实现的。
+3. 在为具有相同名称和软件包的类加载不同的字节码时，实现类版本控制机制。这可以通过URL 类加载器(通过URL来加载jar) 或者自定义类加载器。
+
+底下是更确切的例子，自定义类加载器场景，
+
+浏览器，实际上，使用一个定义加载器从网站上加载可执行内容。一个浏览器可以加载 applets 从不同的网页通过使用不同的类加载器。applet viewer, 用来跑applets, 包括一个类加载器操作远端服务器，而不是找本地文件系统。
+
+之后通过HTTP加载未加工的字节码文件，在JVM内部转化成class. 尽管这些applets 有相同的名字，但是如果通过不同的类加载器加载，就被认为是不同组件。
+
+现在我们理解了为什么自定义加载器是有意义的，我们实现一个ClassLoader的子类来扩展总结JVM是如何加载class的。
+
+> ### 4.2. Creating Our Custom Class Loader
+>
+> For illustration purposes, let's say we need to load classes from a file using a custom class loader.
+>
+> **We need to extend the \*ClassLoader\* class and override the \*findClass()\* method:**
+
+需要继承ClassLoader 类，重写findClass方法
+
+```java
+import java.io.*;
+
+public class CustomClassLoader extends ClassLoader{
+
+    @Override
+    public Class<?> findClass(String name) throws ClassNotFoundException {
+//        return super.findClass(name);
+
+        byte[] b = loadClassFromFile(name);
+        return defineClass(name, b, 0, b.length);
+    }
+
+    private byte[] loadClassFromFile(String fileName) {
+        InputStream inputStream = getClass().getClassLoader().getResourceAsStream(fileName.replace('.', File.separatorChar) + ".class");
+        byte[] buffer;
+        ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
+        int nextValue = 0;
+        try {
+
+            while ((nextValue = inputStream.read()) != -1) {
+                byteStream.write(nextValue);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        buffer = byteStream.toByteArray();
+        return buffer;
+
+    }
+}
+
+```
+
+
+
+
+
 
 
 
