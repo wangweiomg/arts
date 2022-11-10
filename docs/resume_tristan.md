@@ -67,22 +67,37 @@ We use **Java + SprintBoot + Mybatis + Mysql  ** to develop this system.
 
 
 
-**2017.4 - 2018.6   Java Engineer**
+**2017.8 - 2018.6   Java Engineer**
 
 Beijing  Junshi Technology Co., Ltd, Located: Beijing
 
+The main business is to do cash loan business in China. The products include E-Tong loan for individuals, mortgage loan for auto dealers, and an insurance agency product. As the technical leader of the auto finance project, I am responsible for the technical development and maintenance of the project, the realization of the main functions, and the team code quality audit.
+
+We use **Java + Springmvc + Mybatis + Mysql** to develop this system.
+
+**My Key Result:**
+
+* I developed a simplified version of workflow like function to realize task approval flow.
+* I introduced Git, Sonar and other tools to improve development efficiency and quality, and implement detailed design and code review of functions.
+* I led a technical team of 6 people and completed the development task with high quality.
 
 
-**2015.4 - 2017.2   Java Engineer **
+
+**2015.5 - 2017.8   Java Engineer **
 
 Beijing Wofeng times data Technology Co., Ltd,   Located: Beijing
 
-- Designed, developed and implemented software applications for website based on analyzed requirements and understanding of industry technical standards.
-- Participated in performance analysis, design, development and testing.
-- Reviewed code and debugged errors to improve performance.
-- Investigated issues and defects to determine problem root cause and formulate corrective action recommendations.
+The company provides SaaS services for enterprise customers. The main products are customer service system and CRM system. I am mainly responsible for the development of CRM system.
 
+We use **Java + SpringBoot + MyBatis + MySQL + Elasticsearch** to develop this system.
 
+**My Key Result:**
+
+* The user-defined query function implemented by splicing SQL is transformed to be implemented by Elasticsearch.
+
+* A script for automatic project deployment was written in the shell. It was used internally before the introduction of the continuous integration tool Jenkins.
+
+  
 
 
 
