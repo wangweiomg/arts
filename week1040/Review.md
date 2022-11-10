@@ -161,4 +161,93 @@
 >
 > Now let's examine three important features of class loaders.
 
-如果我们通过序列事件调用java.lang.Class.forName()， 我们可以看到首先尝试加载class 通过父亲类加载器，之后它自己尝试java.net.URLClassLoader.findClass() 。
+如果我们通过序列事件调用java.lang.Class.forName()， 我们可以看到首先尝试加载class 通过父亲类加载器，之后它自己尝试java.net.URLClassLoader.findClass() 来找类。
+
+当也找不到Class，就会抛出ClassNotFoundExceptioni. 
+
+现在来考察类加载器的三个重要特性
+
+> ### **3.1. Delegation Model**
+>
+> Class loaders follow the delegation model, where **on request to find a class or resource, a \*ClassLoader\* instance will delegate the search of the class or resource to the parent class loader**.
+>
+> Let's say we have a request to load an application class into the JVM. The system class loader first delegates the loading of that class to its parent extension class loader, which in turn delegates it to the bootstrap class loader.
+>
+> Only if the bootstrap and then the extension class loader are unsuccessful in loading the class, the system class loader tries to load the class itself.
+
+委派模型
+
+类加载器遵从的模型，当请求找一个类或者资源， 一个 类加载器实例将会委派给父加载器来找类或资源。
+
+我们有一个请求需要加载应用class到JVM。system类加载器委派它的父亲 extension 加载器来加载类，然后它委托给bootstrap加载器。
+
+当仅当bootstrap 和之后的 extension类加载没有加载到类，sysytem类加载器才会自己尝试加载类。
+
+> ### **3.2. Unique Classes**
+>
+> As a consequence of the delegation model, it's easy to ensure **unique classes, as we always try to delegate upwards**.
+>
+> If the parent class loader isn't able to find the class, only then will the current instance attempt to do so itself.
+
+唯一类。
+
+作为一个委派模型结果，很容易确保唯一类，因为总是尝试向上委派。
+
+如果父加载器没找到类，当前实例才会自己去加载。
+
+> ### **3.3. Visibility**
+>
+> In addition, **children class loaders are visible to classes loaded by their parent class loaders**.
+>
+> For instance, classes loaded by the system class loader have visibility into classes loaded by the extension and bootstrap class loaders, but not vice-versa.
+>
+> To illustrate this, if Class A is loaded by the application class loader, and class B is loaded by the extensions class loader, then both A and B classes are visible as far as other classes loaded by the application class loader are concerned.
+>
+> Class B, however, is the only class visible to other classes loaded by the extension class loader.
+
+可见性。
+
+更多的是，子加载器对父加载器加载的类是可见的。
+
+例如，被system加载器加载的类对 extension和bootstrap加载器加载的类具有可见性，反之不然。
+
+为了解释这一点，如果 Class A 被 application 加载器加载，class B 被extensions 加载，那么 A和B类都对 application 加载器加载的类可见。
+
+Class B, 却只能被extension 加载的类可见。
+
+
+
+> ## **4. Custom ClassLoader**
+>
+> The built-in class loader is sufficient for most cases where the files are already in the file system.
+>
+> However, in scenarios where we need to load classes out of the local hard drive or a network, we may need to make use of custom class loaders.
+>
+> In this section, we'll cover some other use cases for custom class loaders and demonstrate how to create one.
+
+自定义加载器
+
+内建加载器对大多数已经在文件系统中的文件是足够了。
+
+然而，我们还需要加载本地硬件或者网络之外的的类，我们可能需要使用自定义加载器。
+
+> ### 4.1. Custom Class Loaders Use-Cases
+>
+> Custom class loaders are helpful for more than just loading the class during runtime. A few use cases might include:
+>
+> 1. Helping to modify the existing bytecode, e.g. weaving agents
+> 2. Creating classes dynamically suited to the user's needs, e.g. in JDBC, switching between different driver implementations is done through dynamic class loading.
+> 3. Implementing a class versioning mechanism while loading different bytecodes for classes with the same names and packages. This can be done either through a URL class loader (load jars via URLs) or custom class loaders.
+>
+> Below are more concrete examples where custom class loaders might come in handy.
+>
+> **Browsers, for instance, use a custom class loader to load executable content from a website.** A browser can load applets from different web pages using separate class loaders. The applet viewer, which is used to run applets, contains a *ClassLoader* that accesses a website on a remote server instead of looking in the local file system.
+>
+> It then loads the raw bytecode files via HTTP, and turns them into classes inside the JVM. Even if these **applets have the same name, they're considered different components if loaded by different class loaders**.
+>
+> Now that we understand why custom class loaders are relevant, let's implement a subclass of *ClassLoader* to extend and summarise the functionality of how the JVM loads classes.
+
+
+
+
+
