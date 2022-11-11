@@ -308,6 +308,10 @@ public class CustomClassLoader extends ClassLoader{
 
 
 
+> In the above example, we defined a custom class loader that extends the default class loader, and loads a byte array from the specified file.
+
+上面例子，我们定义了一个自定义类加载器继承默认类加载器，加载字节数组从特定的文件。
+
 
 
 

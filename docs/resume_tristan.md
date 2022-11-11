@@ -14,6 +14,10 @@ Address: Beijing, China,  100005		E-mail: findstockgod@gmail.com	 		Phone: +86 1
 
 Zhengzhou University of Light Industry - Zhengzhou, Henan, China
 
+#### Personal Info
+
+Birth: 1992-8	
+
 
 
 ### Work History
