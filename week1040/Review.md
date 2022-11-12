@@ -312,9 +312,209 @@ public class CustomClassLoader extends ClassLoader{
 
 上面例子，我们定义了一个自定义类加载器继承默认类加载器，加载字节数组从特定的文件。
 
+> ### 5. Understanding *java.lang.ClassLoader*
+>
+> Let's discuss a few essential methods from the *java.lang.ClassLoader* class to get a clearer picture of how it works.
+>
+> ### 5.1. The *loadClass()* Method
+
+理解java.lang.ClassLoader
+
+我们讨论一些java.lang.ClassLoader的必要方法来更清楚它是如何工作的。
+
+```public Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException {```
+
+> This method is responsible for loading the class given a name parameter. The name parameter refers to the fully qualified class name.
+>
+> The Java Virtual Machine invokes the *loadClass()* method to resolve class references, setting resolve to *true*. However, it isn't always necessary to resolve a class. **If we only need to determine if the class exists or not, then the resolve parameter is set to \*false\*.**
+>
+> This method serves as an entry point for the class loader.
+>
+> We can try to understand the internal working of the *loadClass()* method from the source code of *java.lang.ClassLoader:*
+
+这个方法职责是根据name 参数来加载类。 name参数代表符合条件的类名字。
+
+Java虚拟机调用 loadClass() 方法来解析类引用，设置resolve为true。  然而，它并非每次都需要解析一个类。如果我们仅仅需要确定类是否存在，resolve参数设置为 false.
+
+这个方法充当类加载器的入口点。
+
+我们可以从 java.lang.ClassLoader的源码来理解内部工作：
+
+```java
+protected Class<?> loadClass(String name, boolean resolve)
+  throws ClassNotFoundException {
+    
+    synchronized (getClassLoadingLock(name)) {
+        // First, check if the class has already been loaded
+        Class<?> c = findLoadedClass(name);
+        if (c == null) {
+            long t0 = System.nanoTime();
+                try {
+                    if (parent != null) {
+                        c = parent.loadClass(name, false);
+                    } else {
+                        c = findBootstrapClassOrNull(name);
+                    }
+                } catch (ClassNotFoundException e) {
+                    // ClassNotFoundException thrown if class not found
+                    // from the non-null parent class loader
+                }
+
+                if (c == null) {
+                    // If still not found, then invoke findClass in order
+                    // to find the class.
+                    c = findClass(name);
+                }
+            }
+            if (resolve) {
+                resolveClass(c);
+            }
+            return c;
+        }
+    }
+```
+
+> The default implementation of the method searches for classes in the following order:
+>
+> 1. Invokes the *findLoadedClass(String)* method to see if the class is already loaded.
+> 2. Invokes the *loadClass(String)* method on the parent class loader.
+> 3. Invoke the *findClass(String)* method to find the class.
+
+搜索类方法的默认实现是如下顺序：
+
+1. 调用 findLoaderClass(String) 方法可按是否已经加载
+2. 调用 父加载器的 loadClass(String) 方法
+3. 调用 findClass(String)来查找
+
+> ### 5.2. The *defineClass()* Method
+
+```java
+protected final Class<?> defineClass(
+  String name, byte[] b, int off, int len) throws ClassFormatError
+```
+
+> This method is responsible for the conversion of an array of bytes into an instance of a class. Before we use the class, we need to resolve it.
+>
+> If the data doesn't contain a valid class, it throws a *ClassFormatError.*
+>
+> Also, we can't override this method, since it's marked as final.
+
+这方法只是是转换一个字节数组为一个类实例。我们用类之前，我们需要调用它。
+
+如果数据不包括一个合法的类，就会抛出 ClassFormatError
+
+我们不能覆盖这个方法，因为它被标记为 final.
+
+> ### 5.3. The *findClass()* Method
+
+```java
+protected Class<?> findClass(
+  String name) throws ClassNotFoundException
+```
+
+> This method finds the class with the fully qualified name as a parameter. We need to override this method in custom class loader implementations that follow the delegation model for loading classes.
+>
+> In addition, *loadClass()* invokes this method if the parent class loader can't find the requested class.
+>
+> The default implementation throws a *ClassNotFoundException* if no parent of the class loader finds the class.
+
+这个方法根据全路径名称来找类。我们需要覆盖它在自定义类加载器实现里，遵从加载类的委派模型。
+
+另外，loadClass 调用这方法当父类加载器没有找到请求的类时候。
+
+默认实现抛出一个 ClassNotFoundException 如果父亲加载器没有找到类。
+
+> ### 5.4. The *getParent()* Method
+
+```public final ClassLoader getParent()```
+
+> This method returns the parent class loader for delegation.
+>
+> Some implementations, like the one seen before in Section 2, use *null* to represent the bootstrap class loader.
+
+这个方法返回委派的父加载器。
+
+有些实现，使用null来代表bootstrap类加载器。
+
+> ### 5.5. The *getResource()* Method
+
+``` public URL getResource(String name)```
+
+> This method tries to find a resource with the given name.
+>
+> It will first delegate to the parent class loader for the resource. **If the parent is \*null\*, the path of the class loader built into the virtual machine is searched.** 
+>
+> If that fails, then the method will invoke *findResource(String)* to find the resource. The resource name specified as an input can be relative or absolute to the classpath.
+>
+> It returns an URL object for reading the resource, or null if the resource can't be found or the invoker doesn't have adequate privileges to return the resource.
+>
+> It's important to note that Java loads resources from the classpath.
+>
+> Finally, **resource loading in Java is considered location-independent,** as it doesn't matter where the code is running as long as the environment is set to find the resources.
+
+这个方法尝试根据给定名字来找资源。
+
+首先会委派父加载器去找资源。如果 父亲是 null, 虚拟机内建的类加载器路径就找到了。
+
+如果失败，方法会调用 findResource(String)来找资源。资源名字明确作为一个输入，可以是相对或绝对路径。
+
+返回一个URL对象来读资源，或者资源找不到或调用者没有权限，就返回null。
+
+留意到Java加载资源从classpath 是很重要的。
+
+最后，Java中的资源加载被认为是位置无关的，因为只要将环境设置为查找资源，代码在哪里运行并不重要。
 
 
 
+> ## 6. Context Classloaders
+>
+> In general, context class loaders provide an alternative method to the class-loading delegation scheme introduced in J2SE.
+>
+> Like we learned before, **classloaders in a JVM follow a hierarchical model, such that every class loader has a single parent with the exception of the bootstrap class loader.**
+>
+> However, sometimes when JVM core classes need to dynamically load classes or resources provided by application developers, we might encounter a problem.
+>
+> For example, in JNDI, the core functionality is implemented by the bootstrap classes in *rt.jar.* But these JNDI classes may load JNDI providers implemented by independent vendors (deployed in the application classpath). This scenario calls for the bootstrap class loader (parent class loader) to load a class visible to the application loader (child class loader).
+>
+> **J2SE delegation doesn't work here, and to get around this problem, we need to find alternative ways of class loading. This can be achieved using thread context loaders.**
+>
+> The *java.lang.Thread* class has a method, ***getContextClassLoader(),\* that returns the \*ContextClassLoader\* for the particular thread**. The *ContextClassLoader* is provided by the creator of the thread when loading resources and classes.
+>
+> If the value isn't set, then it defaults to the class loader context of the parent thread.
+
+上下文类加载器
+
+通常，context 类加载器提供一个可供选择的方法给 类加载委派语法 使用J2SE.
+
+就像我们之前了解的， 类加载器器在JVM中遵从一个竖向的模型，每个类加载器有一个单独的父亲除了 bootstrap 类加载器。
+
+然而，有时应用开发者需要JVM核心类动态加载类或者资源，我们可能会遇到问题。
+
+例如， 在JNDI， 核心方法是在rt.jar 的bootstrap 类实现的 。但是这些JDNI 类可能加载 JDNI提供者实现通过独立的 vendors(部署在应用 类路径)。此场景调用bootstrap类加载器(父类加载器)加载 application加载器(子加载器)可见的类。
+
+J2SE委派在这里不工作，围绕这个问题，我们需要寻找类加载的替代方法。这可以使用线程context加载器来实现。
+
+java.lang.Thread 类有一个方法， getContextClassLoader() ， 返回 ContextClassLoader 为特定线程。 ContextClassLoader 是线程创建者提供的当加载资源和类时候。
+
+如果值没有设置，默认使用付线程的类加载器上下文。
+
+> ## **7. Conclusion**
+>
+> Class loaders are essential to execute a Java program. In this article, we provided a good introduction to them.
+>
+> We discussed the different types of class loaders, namely Bootstrap, Extensions, and System class loaders. Bootstrap serves as a parent for all of them, and is responsible for loading the JDK internal classes. Extensions and system, on the other hand, load classes from the Java extensions directory and classpath, respectively.
+>
+> We also learned how class loaders work and examined some features, such as delegation, visibility, and uniqueness. Then we briefly explained how to create a custom class loader. Finally, we provided an introduction to Context class loaders.
+>
+> As always, the source code for these examples can be found [over on GitHub](https://github.com/eugenp/tutorials/tree/master/core-java-modules/core-java-jvm).
+
+总结
+
+类加载器是执行Java程序的要点。这篇文章，我们提供了好的介绍。
+
+我们讨论了不同类型的类加载器，叫 Bootstrap, Extension,和system 类加载器。 Bootstrap服务为所有的父类加载器，职责是加载JDK内部类。另一方面，扩展和系统分别从Java扩展目录和类路径加载类。
+
+我们也学到了类加载器如何工作，检查了一些特性，例如委派，可见性和不重复行。之后解释了创建一个自定义加载器。最后，我们提供了介绍Context 类加载器。 
 
 
 
