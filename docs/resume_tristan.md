@@ -8,7 +8,7 @@ Highly-qualified Java Developer offering 7 years of progressive experience. Expe
 
 Address: Beijing, China,  100005		E-mail: findstockgod@gmail.com	 		Phone: +86 18911580722
 
-Birth: 1992-8            Gender: Male
+Age: 30            Gender: Male        Chinese Name:  王伟
 
 #### Education
 
@@ -100,6 +100,18 @@ We use **Java + SpringBoot + MyBatis + MySQL + Elasticsearch** to develop this s
 * A script for automatic project deployment was written in the shell. It was used internally before the introduction of the continuous integration tool Jenkins.
 
   
+
+
+
+### About me
+
+I live in Beijing now, but I am happy to work in Singapore and have plans to live in Singapore for a long time.
+
+I like programming. When I see that the program I wrote runs efficiently and stably on the machine to serve many people, it is a very fulfilling thing.  I will not only keep learning and improving, but also do things better. 
+
+I prefer challenging work, which is very helpful for improving technical level and can bring a great sense of achievement. 
+
+
 
 
 
