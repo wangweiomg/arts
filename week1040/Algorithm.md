@@ -81,7 +81,36 @@ class Solution {
 
 
 
+看题解，一个比较巧妙的解决方式是，选举法。
+
+我们假设这样的场景，每个元素都认为自己能竞选成功，被推上台时，支持的票(相同元素)加1， 反对的票(不同的元素)减一 ， 当票数为0，重新选举。我们知道，众数最后一定能成功。
+
+代码如下：
+
+```java
+public int majorityElement(int[] nums) {
+        // 候选人得票数
+        int count = 0;
+        // 候选人
+        int candidate = 0;
+
+        for (int num : nums) {
+
+          	// 当票数为0， 选出一个候选人
+            if (count == 0) {
+                candidate = num;
+            }
+						// 是候选人的话，票数+1，否则-1		
+ 	     	    count += (candidate == num) ? 1 : -1;
+
+        }
+
+        return candidate;
+
+    }
+```
 
 
 
+这种构思真是巧妙。
 
