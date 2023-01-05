@@ -59,11 +59,66 @@ class Solution {
 }
 ```
 
-### 结果分析
+### 优化
 
-![image-20230104231534541](http://qiniu.honeywen.com/img/20230104231535.png)
+先解决，再优化。 我们来看如何优化上面代码。
+
+从我们得出的结论下手：
+
+**第n层有n个数据**。  **每一层的起点和终点元素是1**
+
+我们上面的代码，首先第一层特殊处理了：
+
+```java
+List<Integer> one = new ArrayList<>(1);
+one.add(1);
+list.add(one);
+```
+
+这一层能否放进循环里？ 我们的i表示什么？ 内循环里 j表示什么？ 
+
+####  i 表示什么
+
+i表示的第几层，  如果i 从0开始， 那么第  i+1 层就有  i+1个数据。
+
+#### j 表示什么
+
+j 表示当前行第 j 个数据。j 和 i 的关系呢?  j 只能 < i +1。
+
+所以，核心逻辑修改为:
+
+```java
+public List<List<Integer>> generate(int numRows) {
+        
+        List<List<Integer>> list = new ArrayList<>();
+        for (int i = 0; i < numRows; i++) {
+
+            List<Integer> row = new ArrayList<>();
+
+            for (int j = 0; j < i + 1; j++) {
+
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    row.add(list.get(i - 1).get(j - 1) + list.get(i - 1).get(j));
+                }
+
+            }
+
+            list.add(row);
+
+        }
+
+
+        return list;
+    }
+```
 
 
 
-结果用时还可以，内存使用也正常。
+
+
+
+
+
 
