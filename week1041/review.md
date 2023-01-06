@@ -260,6 +260,65 @@
 
 目标: 掌握一种乐器。系统: 每天练习乐器的基本原理。
 
+> # The importance of systems
+>
+> Systems introduce structure.
+>
+> For example, the UK uses a credit system to determine your borrowing eligibility.
+>
+> I’m not saying it’s perfect, but it takes the guesswork out of who the bank thinks will likely pay them back when they borrow money.
+>
+> The same is true for your life.
+>
+> Systems eliminate the guesswork about what you must do to achieve what you want.
+>
+> Goals without systems create chaos in your life.
+>
+> Here’s why you need them:
+
+系统重要性
+
+系统引入结构。
+
+例如，英国使用信用系统来确定您的借入资格。
+
+我并不是说这是完美的，但是这需要猜测银行认为当他们借钱时可能还钱的人。
+
+您的生活也是如此。
+
+系统消除了有关实现想要的目标必须做的事情的猜测。
+
+没有系统的目标在您的生活中造成混乱。
+
+这就是为什么您需要它们的原因：
+
+> ## #1 Systems focus on the skill
+>
+> Focusing on the skill embraces process — “*I’m not yet where I want to be, but if I do X, I’ll be a step closer.*”
+>
+> Even if you do not achieve your goal, you have developed a skill that will stay with you forever.
+>
+> All of your efforts are not in vain.
+
+系统聚焦技能。
+
+专注于技能的过程 -- 我不知道我想去哪，但是我如果做X， 就会迈进一步
+
+尽管没实现目标，你仍然开发了一项永久傍身技能。
+
+你所有努力并非白费。
+
+> ## #2 Systems create life-long change
+>
+> Unlike goals, systems emphasize process…
+>
+> Systems **treat the cause** of a problem, and the symptoms (outcomes) change as a by-product.
+>
+> > “Fix the inputs, and the outputs will fix themselves.”
+> > — James Clear
+>
+> For example, treating lousy spending habits may result in you having more disposable income.
+
 
 
 
