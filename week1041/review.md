@@ -319,9 +319,305 @@
 >
 > For example, treating lousy spending habits may result in you having more disposable income.
 
+系统创建长生命周期改变
+
+不像目标，系统强调过程。
+
+系统处理问题的原因，症状(结果)作为副产品改变。
+
+修复输入，输出将会修复他们自己
+
+例如，治疗糟糕的消费习惯可能会导致你有更多的可支配收入。
+
+> ## #3 Systems embrace happiness in the present
+>
+> Systems acknowledge the grey zone between where you want to be and where you want to go.
+>
+> It’s not just black and white.
+>
+> You don’t have to wait until you achieve what you want before you can be happy.
+>
+> You can be happy **now**…
+>
+> You can be happy now by falling in love with the sensation of moving toward where you want to be.
+>
+> If you’ve read this far, you’re probably wondering how to create a system.
+>
+> I’ll show you in five simple steps.
+
+系统拥抱当下的幸福
+
+系统承认在你想去的地方和你想去的地方之间的灰色地带。
+
+不只是黑白分明。
+
+你不必等到得到你想要的东西才能感到幸福。
+
+你现在可以开心了。
+
+你现在可以通过爱上那种朝着你想要的方向前进的感觉而感到快乐。
+
+如果您已经读到这里，您可能想知道如何创建一个系统。
+
+我将用五个简单的步骤向你展示。
+
+> # How to create a system in 5 simple steps
+>
+> The secret to building an effective system is incorporating small, consistent wins into your life.
+>
+> You must have something you can celebrate each day.
+>
+> Brace yourself.
+>
+> This will be the most practical part of the article; Grab a notepad and pen, and work through these steps with me.
+
+如何用简单5步骤创建一个系统
+
+建立一个有效系统的秘诀是将小的、持续的胜利融入你的生活。
+
+你肯定每天都有值得庆祝的事。
+
+做好心理准备。
+
+这将是这篇文章中最实际的部分; 拿起笔记本和钢笔，和我一起完成这些步骤。
+
+>  **Step 1:** *What do you want to achieve?*
+>
+> Sit down and think about what you want.
+>
+> Be honest with yourself, and don’t be afraid to go deep.
+>
+> For instance, saying “*I want to be a professional footballer*” is not detailed enough if the truth is you want to be one of the best  professional footballers playing in a top-four club that competes for  titles in England and Europe.
+>
+> The goal of this step is to completely define what is on the other side of the river.
+>
+> The following steps will show you how to build a bridge and walk across it.
+
+第一步 你想实现什么 
+
+坐下想象你想要的。
+
+对自己诚实，不好害怕深入。
+
+例如，说“我想要成为一个专业足球运动员”是不够详细的，如果你希望成为一个最好的专业最运动员，在英国欧洲4大顶级俱乐部踢球。
+
+这步的目标是完成定义河的另一边。
+
+下一步将会向你展示如何建一个桥走过去。
+
+> **Step 2:** *The five why’s*
+>
+> Everyone has goals they want to achieve — sometimes, people have the same goals as you.
+>
+> What will set you apart from them is **your why**.
+>
+> Your “why” is what fills you with a sense of mission.
+>
+> But it is essential to identify where the **core problem** lies — the thing blocking you from where you want to be (***Remember\****:* ***systems treat the cause\****, not the symptom).*
+>
+> The five why’s technique is a great tool to discover exactly that.
+>
+> It’s pretty simple; ask yourself why you want what you want, answer, and repeat the process four more times.
+>
+> For instance, take the following scenario:
+>
+> > **Why #1:** Why do you want to be one of the best professional footballers playing  in a top-four club that competes for titles in England and Europe? 
+> > **Response #1:** I have a chip on my shoulder. I want to prove people who doubted me wrong.
+> >
+> > **Why #2:** Why do you want to prove yourself to people who doubted you wrong?**Response #2:** So, in the future, people do not give up on me.
+> >
+> > **Why #3:** Why don’t you want people to give up on you? 
+> > **Response #3:** It kills my confidence
+> >
+> > **Why #4:** Why does it kill your confidence? 
+> > **Response #4:** Because I’m very attuned to what people think of me.
+> >
+> > **Why #5**: Why are you very attuned to what people think of you? 
+> > **Response #5**: I have low-self esteem, and it hurts me when I feel like I’m letting others down.
+>
+> **Boom!**
+>
+> The root cause of our scenario cases problems is **low-self esteem**. The goal of their mission (to become what they want) is to build their  self-esteem — which is something that can be worked on each day.
+
+第二步 五个为什么
+
+每个人都有想要实现的目标 --- 有时人们和你有相同的目标。
+
+让你与众不同的，是你的原因。
+
+你的“为什么”让你充满使命感。
+
+但是，确定核心问题在哪里是至关重要的ーー那个阻碍你到达你想去的地方的东西(记住: 系统治疗的是病因，而不是症状)。
+
+五个为什么的技术是一个伟大的工具，发现确切的。
+
+这很简单; 问问你自己为什么你想要你想要的，回答，然后再重复这个过程四次。
+
+例如，以下面的场景为例:
+
+为什么 # 1: 为什么你想成为在英格兰和欧洲争夺冠军的四强俱乐部踢球的最好的职业球员之一？
+
+回应 # 1: 我很生气，我想证明那些怀疑我的人是错的。
+
+为什么2: 为什么你想向那些怀疑你错误的人证明你自己？回应 # 2: 所以，在未来，人们不会放弃我。
+
+为什么3: 你为什么不希望别人放弃你？
+
+回应 # 3: 它扼杀了我的自信
+
+为什么 # 4: 为什么它会扼杀你的自信？
+
+回答 # 4: 因为我非常适应人们对我的看法。
+
+为什么 # 5: 为什么你非常适应别人对你的看法？
+
+回应 # 5: 我有低自尊心，当我觉得我让别人失望的时候，它伤害了我。
+
+砰！
+
+我们情景案例问题的根本原因是缺乏自尊。他们的使命(成为他们想成为的人)的目标是建立他们的自尊ーー这是每天都可以做的事情。
+
+> **Step 3:** *Learn the core actions required*
+>
+> I like to think of this stage as building the bridge from where you are now to where you want to be…
+>
+> The great thing about learning what you need to do is that you don’t have to come up with it by yourself.
+>
+> It’s likely others have already achieved what you want.
+>
+> All you have to do is find them and follow the trail they left behind.
+>
+> For example, if your goal is to go from $0–7 figures with an online business in 365 days, then you may want to sign up for 
+>
+> [Tim Denning](https://medium.com/u/b6d641be1066?source=post_page-----8158ac541df--------------------------------)
+>
+> ’s [newsletter](https://sparklp.co/c147c672/) that teaches you exactly how to do that in 10 steps.
+>
+> 
+>
+> The steps have already been created for you, don’t reinvent the wheel.
+
+步骤3: 了解所需的核心操作
+
+我喜欢把这个舞台想象成一座桥梁，从你现在所在的地方到你想去的地方。
+
+学习你需要做的事情的好处是你不必自己想出来。
+
+很可能其他人已经得到了你想要的。
+
+你要做的就是找到他们，跟着他们留下的痕迹走。
+
+例如，如果你的目标是在365天内从0-7美元的数字上升到在线业务，那么你可能想要注册
+
+Tim Denning的时事通讯，教你如何确切地做到这一点，在10个步骤。
+
+这些步骤已经为你创造了，不要重新发明轮子。
+
+> **Step 4:** *Set implementation intentions*
+>
+> Now you’ve identified the actions required to get what you want, you must set intentions to implement them.
+>
+> This is known as **implementation intentions.**
+>
+> They are commitments to perform an action at a specific time and location — you specify *what* you’re going to do *when* you’re going to do it, and *where.*
+>
+> The structure for an implementation intention is as follows:
+>
+> > “I will [ACTION] at [TIME] in [LOCATION].”
+>
+> Let’s see some examples: 
+>  → I will train using calisthenics and weighted exercises for 1 hour every weekday before work, from 7 am to 8 am, at the gym. 
+>  → I will write down what I buy and its price whenever I purchase something with apple pay. 
+>  → I will create content for my Medium blog for 2 hours daily, from 4 pm to 6 pm, in my home office.
+>
+> Implementation intentions are a safety net for days when your motivation is depleted…
+>
+> And there will be a few of those days.
+
+步骤4: 设置实现意图
+
+现在您已经确定了获得您想要的东西所需要的行动，您必须设定实现它们的意图。
+
+这就是所谓的实现意图。
+
+它们是对在特定时间和地点执行某项行动的承诺ーー你要指定在什么时间、在什么地点执行该行动。
+
+执行意向的结构如下:
+
+“我会在[时间][地点][行动]。”
+
+让我们看一些例子:
+
+→每天工作日上班前，从早上7点到早上8点，在健身房进行1小时的健身操和加重练习。
+
+→每当我用苹果支付购买东西时，我会写下我买的东西和它的价格。
+
+→我将为我的媒体博客创建内容，每天2小时，从下午4点到下午6点，在我的家庭办公室。
+
+当你的动力耗尽的时候，执行意图是一个安全网。
+
+这样的日子还会有几天。
 
 
 
+> **Step 5:** *Review*
+>
+> The implementation intentions you initially set will build off proven  systems that you have adopted from people who have achieved what you  want.
+>
+> But they may not necessarily work for you.
+>
+> It’s vital you understand [why systems are so effective](https://medium.com/swlh/dont-just-set-goals-build-systems-8158ac541df#6871) so you can adapt and improve them accordingly.
+>
+> This involves tracking your progress to measure what is and is not working for you.
+>
+> For example, I prefer to go to the gym in the mornings — when I feel more energized — but you may prefer to go after work.
+>
+> In this scenario, I’d recommend you note how you feel after going to the  gym in the morning for a week or two. Then go to the gym after work and  do the same.
+>
+> If you notice you’re more pumped after work, then update the system.
 
+第五步: 复习
 
+您最初设置的实现意图将构建您已经从已经实现了您想要的人那里采用的经过验证的系统。
 
+但它们未必对你有用。
+
+了解系统为什么如此有效是至关重要的，这样您就可以相应地调整和改进它们。
+
+这包括跟踪您的进度，以衡量哪些对您有效，哪些对您无效。
+
+例如，我更喜欢在早上去健身房ーー当我感到精力充沛时ーー但你可能更喜欢在下班后去。
+
+在这种情况下，我建议你注意一下早上去健身房锻炼一两周后的感觉。然后下班后去健身房，做同样的事情。
+
+如果你注意到下班后精力更加充沛，那么就更新系统。
+
+> # Final Thoughts
+>
+> Goals are great for giving you a sense of direction, but they are not enough to move you forward.
+>
+> You must build a system that allows you to continuously move towards your goal, even when you are void of motivation.
+>
+> To create a system, simply:
+>
+> - Define what you want
+> - Identify why you want it
+> - Learn the actions you must take
+> - Set implementation intentions
+> - Review the system
+>
+> *Thanks for reading.*
+
+最后的思考
+
+目标对于给你一个方向感是很好的，但是它们不足以推动你前进。
+
+你必须建立一个系统，允许你不断地朝着你的目标前进，即使你缺乏动力。
+
+创建一个系统，简单：
+
+* 定义你想要的
+* 明确你想要的
+* 学习你必须采取的行动
+* 设置实现意图
+* 回顾系统
