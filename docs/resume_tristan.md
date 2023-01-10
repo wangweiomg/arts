@@ -2,13 +2,11 @@
 
 ### Senior Software Engineer 
 
-Highly-qualified Java Developer offering 7 years of progressive experience. Expert at designing, developing and maintaining wide range of new and existing products. Forward-thinking development professional bringing expertise in Java, SQL, SprintBoot, Hive,Spark,Python.
+Highly-qualified Java Developer offering 7 years of progressive experience. Expert at designing, developing and maintaining wide range of new and existing products. Forward-thinking development professional bringing expertise in Java, SQL, SpringBoot, Hive,Spark,Python.
 
 #### Contact & Infos
 
-Address: Beijing, China,  100005		E-mail: findstockgod@gmail.com	 		Phone: +86 18911580722
-
-Age: 30            Gender: Male        Chinese Name:  王伟
+Address: Beijing, China,  100005		E-mail: findstockgod@gmail.com	 		Phone: +86 18911580722       Chinese Name:  王伟
 
 #### Education
 
@@ -85,7 +83,7 @@ We use **Java + Springmvc + Mybatis + Mysql** to develop this system.
 
 
 
-**2015.5 - 2017.8   Java Engineer **
+**2015.10 - 2017.8   Java Engineer **
 
 Beijing Wofeng times data Technology Co., Ltd,   Located: Beijing
 
