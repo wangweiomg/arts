@@ -44,4 +44,57 @@ public class Solution {
 
 
 
-![image-20230207124949604](http://qiniu.honeywen.com/img/20230207124950.png)
+看官方题解后， 发现其实可以不用修改输入 n 的值，改造我们的代码，其实引入 1 来做位移就够了
+
+```java
+public int hammingWeight(int n) {
+        int count = 0;
+
+        for (int i = 0; i < 32; i++) {
+
+            if ((n & (1 << i)) == 1) {
+                count++;
+            }
+
+        }
+        return count;
+    }
+```
+
+但是在过用例时候错了：
+
+![image-20230208215110526](http://qiniu.honeywen.com/img/20230208215112.png)
+
+为什么会有这个错误？我们分析代码单步执行， 
+
+i = 0,   1 << 0   是  1 
+
+i = 1, 1 << 1 是 2 ， 这里  2 是不等于 1 的，所以没记上数，但是应该记数
+
+i = 2 1<< 2 是  4， 这时候和 1011 按位与， 是0 ，所以不计数，
+
+所以根据以上， 逻辑应该是 按位与后是0， 就不该记数，不是0 才该记数，修改逻辑为：
+
+```java
+public int hammingWeight(int n) {
+        int count = 0;
+
+        for (int i = 0; i < 32; i++) {
+
+            if ((n & (1 << i)) != 0) {
+ 
+                count++;
+            }
+
+        }
+        return count;
+    }
+```
+
+这样就可以了。
+
+![image-20230208220607765](C:\Users\Welto\AppData\Roaming\Typora\typora-user-images\image-20230208220607765.png)
+
+
+
+但是，这里使用内存却上升了， 想想确实是引入中间变量导致的， 所以最优解还是第一个。
