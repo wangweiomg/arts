@@ -1,3 +1,5 @@
+## ARTS - Share  使用docker部署python web工程
+
 ### 步骤
 
 1. 创建一个flask app，并运行
@@ -109,7 +111,7 @@ docker run -p 4000:4000 first-py-docker
 
 ### 错误分析
 
-* 报错本地 5000端口占用，但是为何flask 本地起来能反问？
+* 报错本地 5000端口占用，但是为何flask 本地起来能访问？
 * 为什么需要改变flask host才能在外访问docker?
 
 
