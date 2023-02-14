@@ -80,50 +80,66 @@
 
 > Managing your  own morale—and your team’s morale—is one of the greatest challenges of  most endeavors. It’s almost impossible without a lot of self-belief. And unfortunately, the more ambitious you are, the more the world will try  to tear you down.  
 >
-> 
->
+
+管理你的斗志 --- 你团队的斗志-- 是大多数努力中最大的挑战之一。如果没有大量自信几乎不可能做到。不幸的是，你的野心越大，这个世界越想打垮你。
+
 > Most highly successful people have  been really right about the future at least once at a time when people  thought they were wrong. If not, they would have faced much more  competition.
 >
-> 
->
+
+大多数非常成功的人在人们认为他们错了的时候，至少有一次对未来的看法是正确的。否则，他们将面临更多的竞争。
+
 > Self-belief must be balanced with  self-awareness. I used to hate criticism of any sort and actively  avoided it. Now I try to always listen to it with the assumption that  it’s true, and then decide if I want to act on it or not. Truth-seeking  is hard and often painful, but it is what separates self-belief from  self-delusion.
 >
-> 
->
+
+自信必须和自我意识相平衡。我曾经痛恨任何形式的批评，并且积极地回避它。现在我总是假设它是真的，然后决定自己是否想去采取行动。寻找真相总是困难充满痛苦，但是它能区分自信和自欺。
+
 > This balance also helps you avoid coming across as entitled and out of touch.
->
+
+这种平衡也可以帮助你避免显得自以为是和脱离实际。
+
 > **3. Learn to think independently**
 >
-> 
->
+
+学会独立思考。
+
 > Entrepreneurship is very difficult to teach because original thinking is very difficult  to teach. School is not set up to teach this—in fact, it generally  rewards the opposite. So you have to cultivate it on your own.
 >
-> 
->
+
+企业家精神教起来很困难，因为底层思考非常难教。学校不是用来教这个的--- 实际上，它通常会给予相反的回报。所以你只能自己培养它。
+
 > Thinking from first principles and trying to generate new ideas is fun, and  finding people to exchange them with is a great way to get better at  this. The next step is to find easy, fast ways to test these ideas in  the real world.
 >
-> 
->
+
+从基本的原则开始思考并尝试产生新的想法是很有趣的，做得更好的方式是找人去交换它。下一步是，发现简单、快速的方式去在真实世界验证这些想法。
+
 > “I will fail many times, and I will be  really right once” is the entrepreneurs’ way. You have to give yourself a lot of chances to get lucky.
 >
-> 
->
+
+“我会失败很多次，我将会真正正确一次”  是企业家精神的方式。你需要给自己很多机会来获得幸运。  
+
 > One of the most powerful  lessons to learn is that you can figure out what to do in situations  that seem to have no solution. The more times you do this, the more you  will believe it. Grit comes from learning you can get back up after you  get knocked down.
->
+
+要学习的最有力的经验之一是，你可以弄清楚在似乎没有解决办法的情况下该做什么。越多次这么做，你会越相信它。勇气来自于学会在你被击倒之后还能重新站起来。
+
 > **4. Get good at “sales”**
+>
+> 善于销售
 >
 > Self-belief alone is not sufficient—you also have to be able to convince other people of what you believe.
 >
-> 
->
+
+光有自信是不够的ーー你还必须能够说服别人相信你的信念。
+
 > All great careers, to some degree, become sales jobs. You have to  evangelize your plans to customers, prospective employees, the press,  investors, etc. This requires an inspiring vision, strong communication  skills, some degree of charisma, and evidence of execution ability.
 >
-> 
->
+
+所有伟大事业，从某种程度上，都是销售工作。你需要传达你的计划给顾客、准雇员、新闻界、投资人等。这需要一种鼓舞的愿景，强大的沟通技巧，一定程度的个人魅力，以及执行力。
+
 > Getting good at communication—particularly written communication—is an  investment worth making. My best advice for communicating clearly is to  first make sure your thinking is clear and then use plain, concise  language.
 >
-> 
->
+
+善于沟通 --- 有些书面沟通
+
 > The best way to be good at sales is to genuinely believe in what you’re selling. Selling what you truly believe in feels great, and trying to sell snake oil feels awful.
 >
 > 
@@ -330,22 +346,22 @@
 >
 > Eventually, you will define your success by performing excellent work in areas that are important to you. The sooner you can start off in that direction,  the further you will be able to go. It is hard to be wildly successful  at anything you aren’t obsessed with.
 >
->
-> [1] A comment response I wrote on HN:
->
-> One of the biggest reasons I'm excited about basic income is the amount of  human potential it will unleash by freeing more people to take risks.
->
-> Until then, if you aren't born lucky, you have to claw your way up for awhile before you can take big swings. If you are born in extreme poverty,  then this is super difficult :(
->
-> It is obviously an incredible shame and waste that opportunity is so  unevenly distributed. But I've witnessed enough people be born with the  deck stacked badly against them and go on to incredible success to know  it's possible.
->
-> I am deeply aware of the fact that I personally would not be where I am if I weren't born incredibly lucky.
->
+> 
+>[1] A comment response I wrote on HN:
+> 
+>One of the biggest reasons I'm excited about basic income is the amount of  human potential it will unleash by freeing more people to take risks.
+> 
+>Until then, if you aren't born lucky, you have to claw your way up for awhile before you can take big swings. If you are born in extreme poverty,  then this is super difficult :(
+> 
+>It is obviously an incredible shame and waste that opportunity is so  unevenly distributed. But I've witnessed enough people be born with the  deck stacked badly against them and go on to incredible success to know  it's possible.
+> 
+>I am deeply aware of the fact that I personally would not be where I am if I weren't born incredibly lucky.
 > 
 >
 > 
 >
-> Thanks to Brian Armstrong, Greg Brockman, Dalton Caldwell,  Diane von Furstenberg, Maddie Hall, Drew Houston, Vinod Khosla, Jessica  Livingston, Jon Levy, Luke Miles (6 drafts!), Michael Moritz, Ali  Rowghani, Michael Seibel, Peter Thiel, Tracy Young and Shivon Zilis for  reviewing drafts of this, and thanks especially to Lachy Groom for help  writing it.
+> 
+>Thanks to Brian Armstrong, Greg Brockman, Dalton Caldwell,  Diane von Furstenberg, Maddie Hall, Drew Houston, Vinod Khosla, Jessica  Livingston, Jon Levy, Luke Miles (6 drafts!), Michael Moritz, Ali  Rowghani, Michael Seibel, Peter Thiel, Tracy Young and Shivon Zilis for  reviewing drafts of this, and thanks especially to Lachy Groom for help  writing it.
 
 
 
