@@ -138,56 +138,70 @@
 > Getting good at communication—particularly written communication—is an  investment worth making. My best advice for communicating clearly is to  first make sure your thinking is clear and then use plain, concise  language.
 >
 
-善于沟通 --- 有些书面沟通
+善于沟通 --- 尤其书面沟通-- 很值得投资。我对清晰沟通的最佳建议是，首先确保你的思路清晰，然后使用简明扼要的语言。
 
 > The best way to be good at sales is to genuinely believe in what you’re selling. Selling what you truly believe in feels great, and trying to sell snake oil feels awful.
 >
-> 
->
+
+做好销售最好的方式是由衷相信你卖的东西。销售你真正相信的东西感觉是很棒的，尝试销售蛇油令人厌烦。
+
 > Getting  good at sales is like improving at any other skill—anyone can get better at it with deliberate practice. But for some reason, perhaps because it feels distasteful, many people treat it as something unlearnable. 
 >
-> 
->
+
+做好销售就像提高任何其他技能一样 --- 任何人可以通过反复训练来做好它。但是出于某种原因，也许是因为它让人感到厌恶，许多人认为它是无法学习的东西。
+
 > My other big sales tip is to show up in person whenever it’s important.  When I was first starting out, I was always willing to get on a plane.  It was frequently unnecessary, but three times it led to career-making  turning points for me that otherwise would have gone the other way.
 >
-> 
->
+
+我的另一个大的销售技巧是，只要是重要的事情，就亲自出面。当我刚开始工作时，我总是愿意坐上飞机。这经常是不必要的，但有三次它导致了我的职业生涯的转折点，否则就会走到另一个方向。
+
 > **5. Make it easy to take risks**
 >
-> 
+> 乐于承担风险
 >
 > Most people overestimate risk and underestimate reward. Taking risks is  important because it’s impossible to be right all the time—you have to  try many things and adapt quickly as you learn more.
 >
-> 
->
+
+大多数人高估了风险低估了回报。承担风险是重要的，因为不可能总是正确 --- 你必须尝试许多东西，并在你学到更多东西时迅速适应。
+
 > It’s  often easier to take risks early in your career; you don’t have much to  lose, and you potentially have a lot to gain. Once you’ve gotten  yourself to a point where you have your basic obligations covered you  should try to make it easy to take risks. Look for small bets you can  make where you lose 1x if you’re wrong but make 100x if it works. Then  make a bigger bet in that direction.
 >
-> 
->
+
+在你事业早期通常承担风险很容易，你没有更多可失去的了，你有很多潜在的可以获得。一旦你让自己的基本义务得到保障，你就应该尝试让自己容易承担风险。寻找小的投注，那些失败失去1 成功就赚100的机会。之后在那个方向加大投注。
+
 > Don’t save up for too long, though. At YC, we’ve often noticed a problem with founders that  have spent a lot of time working at Google or Facebook. When people get  used to a comfortable life, a predictable job, and a reputation of  succeeding at whatever they do, it gets very hard to leave that behind  (and people have an incredible ability to always match their lifestyle  to next year’s salary). Even if they do leave, the temptation to return  is great. It’s easy—and human nature—to prioritize short-term gain and  convenience over long-term fulfillment.  
 >
-> 
+> 不过，不要积攒太长时间。在 YC，我们经常注意到那些在谷歌或 Facebook 工作了很长时间的创始人存在一个问题。当人们习惯于一个舒适的生活，一个可预测的工作，以及无论做什么都会成功的声誉，那就会很很难抛弃这些。(人们总是有一种不可思议的能力，能够将自己的生活方式匹配明年的薪水)。尽管他们真的离开了，回来的诱惑也是极大的。把短期收益和便利置于长期收益之上是很容易的，这也是人类天性。
 >
 > But when you  aren’t on the treadmill, you can follow your hunches and spend time on  things that might turn out to be really interesting. Keeping your life  cheap and flexible for as long as you can is a powerful way to do this,  but obviously comes with tradeoffs.
->
+
+但是当你不在枯燥的工作，你可以跟随你的第六感，花时间在真正感兴趣的事情上。尽可能长时间地保持你的生活便宜和灵活是一个强有力的方法，但是很明显需要权衡。
+
 > **6. Focus**
 >
 > Focus is a force multiplier on work.
 >
-> 
->
+
+专注是工作的力量倍增器。
+
 > Almost everyone I’ve ever met would be well-served by spending more time  thinking about what to focus on. It is much more important to work on  the right thing than it is to work many hours. Most people waste most of their time on stuff that doesn’t matter.
 >
-> 
->
+
+ 我见过的几乎每个人都会花更多的时间来思考应该关注什么，这对他们来说是很有好处的。在正确的事情上工作比在许多时间上工作要重要得多。大多数人把大部分时间浪费在无所谓的事情上
+
 > Once you have  figured out what to do, be unstoppable about getting your small handful  of priorities accomplished quickly. I have yet to meet a slow-moving  person who is very successful.
->
+
+一旦你想好了要做什么，就要势不可挡地迅速完成你的一小撮优先事项。我还没有见过一个行动缓慢但非常成功的人。
+
 > **7. Work hard**
 >
 > You can  get to about the 90th percentile in your field by working either smart  or hard, which is still a great accomplishment. But getting to the 99th  percentile requires both—you will be competing with other very talented  people who will have great ideas and be willing to work a lot. 
 >
-> 
->
+
+努力工作
+
+
+
 > Extreme people get extreme results. Working a lot comes with huge life  trade-offs, and it’s perfectly rational to decide not to do it. But it  has a lot of advantages. As in most cases, momentum compounds, and  success begets success.
 >
 > 
