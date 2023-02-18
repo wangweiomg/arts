@@ -200,90 +200,124 @@
 
 努力工作
 
+你可以通过聪明或者努力工作在你的领域达到90%，这仍然是一个伟大成就。但是达到99%的程度，两者都需要--- 你将会和其他非常有天赋的有伟大想法的并乐意很多工作的人竞争。
+
 
 
 > Extreme people get extreme results. Working a lot comes with huge life  trade-offs, and it’s perfectly rational to decide not to do it. But it  has a lot of advantages. As in most cases, momentum compounds, and  success begets success.
 >
-> 
->
+
+极致的的人获得极致结果。大量工作带来巨大的生活权衡取舍，决定不这么做也是完全理性的。但是它也有很多优势。在大多数情况下，势头是复合的，而成功会带来成功。
+
 > And it’s often really fun. One of  the great joys in life is finding your purpose, excelling at it, and  discovering that your impact matters to something larger than yourself. A YC founder recently expressed great surprise about how much happier and more fulfilled he was after leaving his job at a big company and  working towards his maximum possible impact. Working hard at that should be celebrated.  
->
-> 
->
+
+它经常真的有趣。生活中最大的乐趣之一就是找到你的目标，在这方面做得很出色，并发现你的影响对比你自己更重要的事情很重要。一位YC的创始人最近表示非常惊讶，他在离开大公司的工作后，为自己的最大可能的影响而努力，这让他更加快乐和充实。在这方面努力工作应该得到庆祝。
+
 > It’s not entirely clear to me why  working hard has become a Bad Thing in certain parts of the US, but this is certainly not the case in other parts of the world—the amount of  energy and drive exhibited by entrepreneurs outside of the US is quickly becoming the new benchmark.
 >
-> 
->
+
+不完全清楚为何努力工作在美国一些地区变成一个坏的事情，但在世界其他地区肯定不是这样的。美国以外的企业家所表现出的能量和动力正迅速成为新的基准。
+
 > You have to figure out how to work hard without burning out. People find their own strategies for  this, but one that almost always works is to find work you like doing  with people you enjoy spending a lot of time with.
 >
-> 
->
+
+你必须弄清楚如何努力工作而不至于筋疲力尽。人们会寻找自己的策略来应对，但是有一条总是奏效的方式是，寻找哪些你喜欢做的工作，和你享受花时间在一块的人一起工作。
+
 > I think people who pretend you can be super successful professionally without  working most of the time (for some period of your life) are doing a  disservice. In fact, work stamina seems to be one of the biggest  predictors of long-term success.
 >
-> 
->
+
+我认为哪些假装你不用大部分时间工作(人生的一阶段)就能超级成功的人是非常有害的。事实上，持久工作是长期成功可一个可预测的事。
+
 > One more thought about  working hard: do it at the beginning of your career. Hard work compounds like interest, and the earlier you do it, the more time you have for  the benefits to pay off. It’s also easier to work hard when you have  fewer other responsibilities, which is frequently but not always the  case when you’re young.
->
+
+关于努力工作还有一个想法：在你的职业生涯开始时就努力工作。艰苦的工作就像利息一样复利，你越早做，你就有越多的时间来获得收益回报。当你有较少的其他责任时，也更容易努力工作，这在你年轻的时候经常发生，但并不总是这样。
+
 > **8. Be bold**
+>
+> 大胆一些
 >
 > I believe that  it’s easier to do a hard startup than an easy startup. People want to be part of something exciting and feel that their work matters.
 >
-> 
->
+
+我相信，做一个困难的创业公司比做一个容易的创业公司更容易。人们希望成为令人兴奋的事物的一部分，并感到他们的工作很重要。
+
 > If you are making progress on an important problem, you will have a  constant tailwind of people wanting to help you. Let yourself grow more  ambitious, and don’t be afraid to work on what you really want to work  on.
 >
-> 
->
+
+如果你在一个重要的问题上取得进展，你将会有一个不断想要帮助你的人带来顺风。让你自己成长得更有雄心，不要怕你真正想做的事情。
+
 > If everyone else is starting meme companies, and you  want to start a gene-editing company, then do that and don’t second  guess it.
 >
-> 
->
+
+如果其他人都在创办备忘录公司，而你想创办一家基因编辑公司，那就去做，不要犹豫。
+
 > Follow your curiosity. Things that seem exciting to you will often seem exciting to other people too.
->
+
+听从你的好奇心。对你来说似乎很兴奋的事情，往往对其他人来说也会很兴奋。
+
 > **9. Be willful**
 >
-> A big secret is that you can bend the world to your will a surprising  percentage of the time—most people don’t even try, and just accept that  things are the way that they are.
+> 要有意志力
 >
+> A big secret is that you can bend the world to your will a surprising  percentage of the time—most people don’t even try, and just accept that  things are the way that they are.
+
+一个很大的秘密是，你可以在令人惊讶的百分比上让世界屈服于你的意志，大多数人甚至没有尝试，而只是接受事情本来的样子。
+
 > People have an enormous capacity to make things happen. A combination of self-doubt, giving up too  early, and not pushing hard enough prevents most people from ever  reaching anywhere near their potential.
 >
-> 
->
+
+人们有巨大的能力使事情发生。自我怀疑、过早放弃和不够努力等因素的结合，使大多数人无法达到接近其潜力的程度。
+
 > Ask for what you  want. You usually won’t get it, and often the rejection will be painful. But when this works, it works surprisingly well. 
 >
-> 
->
+
+追求想要的事情。你经常不会得到它，经常被拒会很痛苦。但当它起效，结果会出奇的好。
+
 > Almost  always, the people who say “I am going to keep going until this works,  and no matter what the challenges are I’m going to figure them out”, and mean it, go on to succeed. They are persistent long enough to give  themselves a chance for luck to go their way.
 >
-> 
->
+
+大多数总是，当人们说”我将会一直努力到这个事奏效，无论挑战是什么我将会克服“， 意味着，正在成功路上。他们不屈不挠足够长就会给他们带来一个机会，幸运就在路上了。
+
 > Airbnb is my benchmark for this. There are so many stories they tell that I wouldn’t recommend trying to reproduce (keeping maxed-out credit cards in those  nine-slot three-ring binder pages kids use for baseball cards, eating  dollar store cereal for every meal, battle after battle with powerful  entrenched interest, and on and on) but they managed to survive long  enough for luck to go their way.
 >
-> 
->
+
+Airbnb是我在这方面的标杆。他们讲了很多故事，我不建议尝试复制（把刷爆的信用卡放在孩子们用来装棒球卡的九槽三环夹子里，每顿都吃一元店的麦片，与强大的根深蒂固的利益集团进行一场又一场的斗争，等等），但他们设法生存了足够长的时间，让运气顺着他们。
+
 > To be willful, you have  to be optimistic—hopefully this is a personality trait that can be  improved with practice. I have never met a very successful pessimistic  person.
->
+
+要想成为有意志力的人，你必须乐观 --- 希望这是一个可以通过实践来改善的人格特质。我从来没有见过一个非常成功的悲观主义者。
+
 > **10. Be hard to compete with**
 >
 > Most people  understand that companies are more valuable if they are difficult to  compete with. This is important, and obviously true.
 >
-> 
->
+
+做到难与竞争
+
+大多数人都明白，如果公司难以与之竞争，那么它们就更有价值。这很重要，而且显然是真的。
+
 > But  this holds true for you as an individual as well. If what you do can be  done by someone else, it eventually will be, and for less money.
 >
-> 
->
+
+但是作为个人这个也是真的。如果你做的事其他人也可以做，那么将会，赚更少的钱。
+
 > The best way to become difficult to compete with is to build up leverage.  For example, you can do it with personal relationships, by building a  strong personal brand, or by getting good at the intersection of  multiple different fields. There are many other strategies, but you have to figure out some way to do it.
 >
-> 
->
+
+变得难以竞争的最好方法是建立杠杆作用。例如，你使用个人关系，通过建立一个强有力的个人品牌，或者在多个不同领域取得优势。还有很多其他的策略，但是你需要找出做到的方法。
+
 > Most people do whatever  most people they hang out with do. This mimetic behavior is usually a  mistake—if you’re doing the same thing everyone else is doing, you will  not be hard to compete with.
->
+
+大多数人做他们所交往的大多数人做的事。这种模仿行为通常是一个错误--如果你做的是别人都在做的事情，你将不难与之竞争。
+
 > **11. Build a network**
 >
+> 建立人际网
+>
 > Great work requires teams. Developing a network of talented people to work  with—sometimes closely, sometimes loosely—is an essential part of a  great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
->
-> 
->
+
+伟大的工作需要团队。发展一个由有才华的人组成的工作网络--有时是紧密的，有时是松散的--是伟大事业的一个重要组成部分。你所认识的真正有才华的人的网络规模往往成为你能取得成就的限制因素。
+
 > An effective way to build a network is to help people as much as you can.  Doing this, over a long period of time, is what lead to most of my best  career opportunities and three of my four best investments. I’m  continually surprised how often something good happens to me because of  something I did to help a founder ten years ago.
 >
 > 
