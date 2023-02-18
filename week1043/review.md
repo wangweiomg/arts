@@ -320,62 +320,85 @@ Airbnb是我在这方面的标杆。他们讲了很多故事，我不建议尝�
 
 > An effective way to build a network is to help people as much as you can.  Doing this, over a long period of time, is what lead to most of my best  career opportunities and three of my four best investments. I’m  continually surprised how often something good happens to me because of  something I did to help a founder ten years ago.
 >
-> 
->
+
+一个有效的方式去构建人际网络是尽可能的去帮助别人。这么做持续长时间，带给我大部分最好的事业机会，我四个最好投资中的三个。我不断地感到惊讶，因为我十年前为帮助一个创始人所做的事情，经常有好事发生在我身上。
+
 > One of  the best ways to build a network is to develop a reputation for really  taking care of the people who work with you. Be overly generous with  sharing the upside; it will come back to you 10x. Also, learn how to  evaluate what people are great at, and put them in those roles. (This is the most important thing I have learned about management, and I haven’t read much about it.) You want to have a reputation for pushing people  hard enough that they accomplish more than they thought they could, but  not so hard they burn out.
 >
-> 
->
+
+建立网络的最好方法之一是建立一个真正照顾到与你合作的人的声誉。在分享收益方面要过于慷慨；它将以10倍的速度回报给你。另外，要学会评估人们擅长什么，并让他们担任这些角色。(这是我在管理方面学到的最重要的东西，而我并没有读过很多这方面的书）。你要在推动人们努力工作方面享有声誉，使他们的成就超过他们的想象，但又不至于让他们精疲力尽。
+
 > Everyone is better at some  things than others. Define yourself by your strengths, not your  weaknesses. Acknowledge your weaknesses and figure out how to work  around them, but don’t let them stop you from doing what you want to do. “I can’t do X because I’m not good at Y” is something I hear from  entrepreneurs surprisingly often, and almost always reflects a lack of  creativity. The best way to make up for your weaknesses is to hire  complementary team members instead of just hiring people who are good at the same things you are.
 >
-> 
->
+
+每个人都有某方面强于其他人的地方。定义你自己的是你的强项，不是你的弱点。承认你的弱点找出如何与他们相处工作，但是不要让他们停止你想做的事。“我不能做某事，因为我不擅长做某事”是我经常从企业家那里听到的令人惊讶的话，这几乎总是反映出创造力的缺乏。弥补你的弱点的最好方法是雇佣互补的团队成员，而不是仅仅雇佣那些和你同样擅长的人。
+
 > A particularly valuable part of  building a network is to get good at discovering undiscovered talent.  Quickly spotting intelligence, drive, and creativity gets much easier  with practice. The easiest way to learn is just to meet a lot of people, and keep track of who goes on to impress you and who doesn’t. Remember  that you are mostly looking for rate of improvement, and don’t overvalue experience or current accomplishment.
 >
-> 
->
+
+一个构建人际网络的尤其有价值的方面是善于发现未被发现的天赋。在实践下，迅速发现智力，驱动力和创造力变得更容易。最简单的方式是建大量的人，保持追踪哪些令人印象深刻的和不深刻的。记住，你主要是在寻找改进的速度，不要高估经验或当前的成就。
+
 > I try to always ask myself when I meet someone new “is this person a force of nature?” It’s a pretty good heuristic for finding people who are likely to accomplish great things.
 >
-> 
->
+
+当我遇到新的人时，我试着总是问自己 "这个人是天生的力量吗？" 这是一个相当好的启发式方法，可以找到那些有可能完成伟大事业的人。
+
 > A special case of developing a network is  finding someone eminent to take a bet on you, ideally early in your  career. The best way to do this, no surprise, is to go out of your way  to be helpful. (And remember that you have to pay this forward at some  point later!)
 >
-> 
->
+
+发展网络的一个特殊情况是找到知名人士为你下注，最好是在你职业生涯的早期。要做到这一点，毫不奇怪，最好的办法是不遗余力地提供帮助。(请记住，你必须在以后的某个时间点上把这些钱交出来！）。
+
+最后，记得把你的时间花在那些支持你的雄心壮志的积极的人身上。
+
 > Finally, remember to spend your time with positive people who support your ambitions.
 >
 > 
 >
 > **12. You get rich by owning things**
->
+
+通过拥有东西变富有
+
 > The biggest economic misunderstanding of my childhood was that people got  rich from high salaries. Though there are some exceptions—entertainers  for example —almost no one in the history of the Forbes list has gotten  there with a salary.
 >
-> 
->
+
+我小时候对经济最大的误解是人们通过高薪水变富。尽管有一些例外--例如娱乐界人士---几乎没有人是通过工资上福布斯榜的。
+
 > You get truly rich by owning things that increase rapidly in value.
 >
-> 
->
+
+你通过拥有价值快速增长的东西而变得真正富有。
+
 > This can be a piece of a business, real estate, natural resource,  intellectual property, or other similar things. But somehow or other,  you need to own equity in something, instead of just selling your time.  Time only scales linearly.
 >
-> 
->
+
+这可以是企业的一部分、房地产、自然资源、知识产权或其他类似的东西。但是不管怎样，你需要拥有一些东西的权益，而不是仅仅出售你的时间。时间只是线性规模。
+
 > The best way to make things that increase rapidly in value is by making things people want at scale. 
->
+
+制造价值迅速增加的东西的最好方法是大规模制造人们想要的东西。
+
+
+
 > **13. Be internally driven**
+>
+> 拥有自驱力
 >
 > Most people are primarily externally driven; they do what they do because  they want to impress other people. This is bad for many reasons, but  here are two important ones.
 >
-> 
->
+
+大多数人主要是外部驱动的; 他们做他们所做的是因为他们想给别人留下深刻印象。这种情况有很多原因，但有两个重要的原因。
+
 > First, you will work on  consensus ideas and on consensus career tracks.  You will care a  lot—much more than you realize—if other people think you’re doing the  right thing. This will probably prevent you from doing truly interesting work, and even if you do, someone else would have done it anyway.
 >
 > 
 >
 > Second, you will usually get risk calculations wrong. You’ll be very focused on keeping up with other people and not falling behind in competitive  games, even in the short term.
 >
-> 
->
+
+首先，你将在协商一致的想法和协商一致的职业轨道上工作。 你会非常关心--比你意识到的要多得多--其他人是否认为你在做正确的事情。这可能会妨碍你做真正有趣的工作，即使你做了，别人也会做。
+
+第二，你通常会把风险计算弄错。你会非常专注于跟上别人的步伐，在竞争性游戏中不掉队，即使是在短期内。
+
 > Smart people seem to be  especially at risk of such externally-driven behavior. Being aware of it helps, but only a little—you will likely have to work super-hard to not fall in the mimetic trap.
 >
 > 
@@ -393,7 +416,17 @@ Airbnb是我在这方面的标杆。他们讲了很多故事，我不建议尝�
 > 
 >
 > Eventually, you will define your success by performing excellent work in areas that are important to you. The sooner you can start off in that direction,  the further you will be able to go. It is hard to be wildly successful  at anything you aren’t obsessed with.
->
+
+聪明人似乎特别容易出现这种外部驱动的行为。意识到这一点是有帮助的，但只是一点点--你很可能要付出极大的努力才能不落入模仿的陷阱。
+
+我所知道的最成功的人主要是由内部驱动的；他们所做的事情是为了给自己留下深刻印象，也是因为他们感到必须要在这个世界上有所作为。在你赚够了钱，可以买到你想要的任何东西，得到了足够的社会地位，不再以获得更多的东西为乐趣之后，这是我所知道的唯一的力量，会继续推动你达到更高的表现水平。
+
+这就是为什么一个人的动机问题是如此重要。这是我试图了解一个人的第一件事。正确的动机很难定义一套规则，但当你看到它时，你就会知道它。
+
+杰西卡-利文斯顿和保罗-格雷厄姆是我这方面的标杆。YC在最初几年被广泛嘲笑，在他们刚开始的时候几乎没有人认为它会大获成功。但他们认为，如果它能成功，对世界来说是件好事，而且他们喜欢帮助人，他们坚信他们的新模式比现有模式更好。
+
+最终，你将通过在对你很重要的领域进行出色的工作来定义你的成功。你越早朝这个方向起步，你就能走得越远。你很难在你不痴迷的事情上取得巨大的成功。
+
 > 
 >[1] A comment response I wrote on HN:
 > 
@@ -405,11 +438,17 @@ Airbnb是我在这方面的标杆。他们讲了很多故事，我不建议尝�
 > 
 >I am deeply aware of the fact that I personally would not be where I am if I weren't born incredibly lucky.
 > 
->
+
+我对基本收入感到兴奋的最大原因之一是，它将释放出大量的人类潜力，让更多的人能够承担风险。
+在此之前，如果你不是天生的幸运儿，你必须在大摇大摆之前努力奋斗一阵子。如果你出生在极端贫困的地方，那么这就超级困难了:(
+
+机会分配如此不均，显然是一种难以置信的耻辱和浪费。但是，我已经目睹了足够多的人出生在对他们非常不利的环境中，并取得了令人难以置信的成功，所以我知道这是可能的。
+
+我深深地意识到，如果我不是生来就非常幸运，我个人就不会有现在的成就。
+
 > 
 >
-> 
->Thanks to Brian Armstrong, Greg Brockman, Dalton Caldwell,  Diane von Furstenberg, Maddie Hall, Drew Houston, Vinod Khosla, Jessica  Livingston, Jon Levy, Luke Miles (6 drafts!), Michael Moritz, Ali  Rowghani, Michael Seibel, Peter Thiel, Tracy Young and Shivon Zilis for  reviewing drafts of this, and thanks especially to Lachy Groom for help  writing it.
+> Thanks to Brian Armstrong, Greg Brockman, Dalton Caldwell,  Diane von Furstenberg, Maddie Hall, Drew Houston, Vinod Khosla, Jessica  Livingston, Jon Levy, Luke Miles (6 drafts!), Michael Moritz, Ali  Rowghani, Michael Seibel, Peter Thiel, Tracy Young and Shivon Zilis for  reviewing drafts of this, and thanks especially to Lachy Groom for help  writing it.
 
 
 
