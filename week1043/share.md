@@ -68,8 +68,6 @@ stable diffusion
 
 ![image-20230221202839423](C:\Users\Welto\AppData\Roaming\Typora\typora-user-images\image-20230221202839423.png)
 
-openai apikeys
 
-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
 
 ![image-20230221205843479](http://qiniu.honeywen.com/img/20230221205844.png)
