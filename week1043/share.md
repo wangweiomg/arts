@@ -1,4 +1,4 @@
-## 使用AI绘图
+## ARTS - Share 使用AI绘图
 
 参考的这篇文章: [**低成本体验生成 AI 小姐姐照片**](https://medium.com/@croath/%E4%BD%8E%E6%88%90%E6%9C%AC%E4%BD%93%E9%AA%8C%E7%94%9F%E6%88%90-ai-%E5%B0%8F%E5%A7%90%E5%A7%90%E7%85%A7%E7%89%87-85ffa7c13cd7)
 
